@@ -36,11 +36,11 @@ namespace Tic_Tac_Toe_Game_Simulator
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.rb_X1 = new System.Windows.Forms.RadioButton();
-            this.rb_X2 = new System.Windows.Forms.RadioButton();
-            this.rb_O1 = new System.Windows.Forms.RadioButton();
-            this.rb_O2 = new System.Windows.Forms.RadioButton();
             this.btn_Play = new System.Windows.Forms.Button();
+            this.chckBox_X1 = new System.Windows.Forms.CheckBox();
+            this.chckBox_O1 = new System.Windows.Forms.CheckBox();
+            this.chckBox_X2 = new System.Windows.Forms.CheckBox();
+            this.chckBox_O2 = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // gameTitle
@@ -112,51 +112,6 @@ namespace Tic_Tac_Toe_Game_Simulator
             this.label2.Text = "PLAY AS: ";
             this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // rb_X1
-            // 
-            this.rb_X1.AutoSize = true;
-            this.rb_X1.Location = new System.Drawing.Point(49, 275);
-            this.rb_X1.Name = "rb_X1";
-            this.rb_X1.Size = new System.Drawing.Size(32, 19);
-            this.rb_X1.TabIndex = 7;
-            this.rb_X1.TabStop = true;
-            this.rb_X1.Text = "X";
-            this.rb_X1.UseVisualStyleBackColor = true;
-            // 
-            // rb_X2
-            // 
-            this.rb_X2.AutoSize = true;
-            this.rb_X2.Location = new System.Drawing.Point(200, 275);
-            this.rb_X2.Name = "rb_X2";
-            this.rb_X2.Size = new System.Drawing.Size(32, 19);
-            this.rb_X2.TabIndex = 8;
-            this.rb_X2.TabStop = true;
-            this.rb_X2.Text = "X";
-            this.rb_X2.UseVisualStyleBackColor = true;
-            this.rb_X2.CheckedChanged += new System.EventHandler(this.rb_X2_CheckedChanged);
-            // 
-            // rb_O1
-            // 
-            this.rb_O1.AutoSize = true;
-            this.rb_O1.Location = new System.Drawing.Point(100, 275);
-            this.rb_O1.Name = "rb_O1";
-            this.rb_O1.Size = new System.Drawing.Size(34, 19);
-            this.rb_O1.TabIndex = 9;
-            this.rb_O1.TabStop = true;
-            this.rb_O1.Text = "O";
-            this.rb_O1.UseVisualStyleBackColor = true;
-            // 
-            // rb_O2
-            // 
-            this.rb_O2.AutoSize = true;
-            this.rb_O2.Location = new System.Drawing.Point(251, 275);
-            this.rb_O2.Name = "rb_O2";
-            this.rb_O2.Size = new System.Drawing.Size(34, 19);
-            this.rb_O2.TabIndex = 10;
-            this.rb_O2.TabStop = true;
-            this.rb_O2.Text = "O";
-            this.rb_O2.UseVisualStyleBackColor = true;
-            // 
             // btn_Play
             // 
             this.btn_Play.Font = new System.Drawing.Font("Courier New", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
@@ -167,16 +122,56 @@ namespace Tic_Tac_Toe_Game_Simulator
             this.btn_Play.Text = "Let\'s Play!";
             this.btn_Play.UseVisualStyleBackColor = true;
             // 
+            // chckBox_X1
+            // 
+            this.chckBox_X1.AutoSize = true;
+            this.chckBox_X1.Location = new System.Drawing.Point(49, 275);
+            this.chckBox_X1.Name = "chckBox_X1";
+            this.chckBox_X1.Size = new System.Drawing.Size(33, 19);
+            this.chckBox_X1.TabIndex = 12;
+            this.chckBox_X1.Text = "X";
+            this.chckBox_X1.UseVisualStyleBackColor = true;
+            // 
+            // chckBox_O1
+            // 
+            this.chckBox_O1.AutoSize = true;
+            this.chckBox_O1.Location = new System.Drawing.Point(100, 275);
+            this.chckBox_O1.Name = "chckBox_O1";
+            this.chckBox_O1.Size = new System.Drawing.Size(35, 19);
+            this.chckBox_O1.TabIndex = 13;
+            this.chckBox_O1.Text = "O";
+            this.chckBox_O1.UseVisualStyleBackColor = true;
+            // 
+            // chckBox_X2
+            // 
+            this.chckBox_X2.AutoSize = true;
+            this.chckBox_X2.Location = new System.Drawing.Point(198, 275);
+            this.chckBox_X2.Name = "chckBox_X2";
+            this.chckBox_X2.Size = new System.Drawing.Size(33, 19);
+            this.chckBox_X2.TabIndex = 14;
+            this.chckBox_X2.Text = "X";
+            this.chckBox_X2.UseVisualStyleBackColor = true;
+            // 
+            // chckBox_O2
+            // 
+            this.chckBox_O2.AutoSize = true;
+            this.chckBox_O2.Location = new System.Drawing.Point(249, 275);
+            this.chckBox_O2.Name = "chckBox_O2";
+            this.chckBox_O2.Size = new System.Drawing.Size(35, 19);
+            this.chckBox_O2.TabIndex = 15;
+            this.chckBox_O2.Text = "O";
+            this.chckBox_O2.UseVisualStyleBackColor = true;
+            // 
             // Tic_Tac_Toe
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(355, 407);
+            this.Controls.Add(this.chckBox_O2);
+            this.Controls.Add(this.chckBox_X2);
+            this.Controls.Add(this.chckBox_O1);
+            this.Controls.Add(this.chckBox_X1);
             this.Controls.Add(this.btn_Play);
-            this.Controls.Add(this.rb_O2);
-            this.Controls.Add(this.rb_O1);
-            this.Controls.Add(this.rb_X2);
-            this.Controls.Add(this.rb_X1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox2);
@@ -200,11 +195,11 @@ namespace Tic_Tac_Toe_Game_Simulator
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.RadioButton rb_X1;
-        private System.Windows.Forms.RadioButton rb_X2;
-        private System.Windows.Forms.RadioButton rb_O1;
-        private System.Windows.Forms.RadioButton rb_O2;
         private System.Windows.Forms.Button btn_Play;
+        private System.Windows.Forms.CheckBox chckBox_X1;
+        private System.Windows.Forms.CheckBox chckBox_O1;
+        private System.Windows.Forms.CheckBox chckBox_X2;
+        private System.Windows.Forms.CheckBox chckBox_O2;
     }
 }
 
