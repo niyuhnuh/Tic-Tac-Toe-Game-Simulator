@@ -38,6 +38,10 @@ namespace Tic_Tac_Toe_Game_Simulator
             this.btn7 = new System.Windows.Forms.Button();
             this.btn8 = new System.Windows.Forms.Button();
             this.btn9 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.btn_Reset = new System.Windows.Forms.Button();
+            this.btn_Exit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn1
@@ -112,11 +116,55 @@ namespace Tic_Tac_Toe_Game_Simulator
             this.btn9.TabIndex = 8;
             this.btn9.UseVisualStyleBackColor = true;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Courier New", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(114, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(129, 36);
+            this.label1.TabIndex = 9;
+            this.label1.Text = "label1";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Courier New", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label2.Location = new System.Drawing.Point(114, 329);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(129, 36);
+            this.label2.TabIndex = 10;
+            this.label2.Text = "label2";
+            // 
+            // btn_Reset
+            // 
+            this.btn_Reset.Font = new System.Drawing.Font("Courier New", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_Reset.Location = new System.Drawing.Point(12, 329);
+            this.btn_Reset.Name = "btn_Reset";
+            this.btn_Reset.Size = new System.Drawing.Size(75, 23);
+            this.btn_Reset.TabIndex = 11;
+            this.btn_Reset.Text = "Reset";
+            this.btn_Reset.UseVisualStyleBackColor = true;
+            // 
+            // btn_Exit
+            // 
+            this.btn_Exit.Font = new System.Drawing.Font("Courier New", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_Exit.Location = new System.Drawing.Point(268, 329);
+            this.btn_Exit.Name = "btn_Exit";
+            this.btn_Exit.Size = new System.Drawing.Size(75, 23);
+            this.btn_Exit.TabIndex = 12;
+            this.btn_Exit.Text = "Exit";
+            this.btn_Exit.UseVisualStyleBackColor = true;
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(355, 409);
+            this.Controls.Add(this.btn_Exit);
+            this.Controls.Add(this.btn_Reset);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.btn9);
             this.Controls.Add(this.btn8);
             this.Controls.Add(this.btn7);
@@ -129,6 +177,7 @@ namespace Tic_Tac_Toe_Game_Simulator
             this.Name = "Form2";
             this.Text = "Tic-Tac-Toe ";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -143,5 +192,9 @@ namespace Tic_Tac_Toe_Game_Simulator
         private System.Windows.Forms.Button btn7;
         private System.Windows.Forms.Button btn8;
         private System.Windows.Forms.Button btn9;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btn_Reset;
+        private System.Windows.Forms.Button btn_Exit;
     }
 }
