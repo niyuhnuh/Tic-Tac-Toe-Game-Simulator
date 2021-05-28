@@ -17,8 +17,32 @@ namespace Tic_Tac_Toe_Game_Simulator
             InitializeComponent();
         }
 
-         
-           
-  
+        int turn = 1;
+        string player_X = "X";
+        string player_O = "O";
+
+        private void lbl_Turn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Tic_Tac_Toe_Load(object sender, EventArgs e)
+        {
+            int turn_count = turn;
+            if (turn_count % 2 == 0)
+            {
+                lbl_Turn.Text = "O's Turn";
+            }
+
+            else 
+            {
+                lbl_Turn.Text = "X's Turn";
+            }
+        }
     }
 }

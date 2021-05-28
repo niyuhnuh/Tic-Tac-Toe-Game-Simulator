@@ -79,11 +79,12 @@ namespace Tic_Tac_Toe_Game_Simulator
             // 
             this.lbl_Turn.AutoSize = true;
             this.lbl_Turn.Font = new System.Drawing.Font("Courier New", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbl_Turn.Location = new System.Drawing.Point(114, 25);
+            this.lbl_Turn.Location = new System.Drawing.Point(105, 24);
             this.lbl_Turn.Name = "lbl_Turn";
             this.lbl_Turn.Size = new System.Drawing.Size(148, 36);
             this.lbl_Turn.TabIndex = 22;
             this.lbl_Turn.Text = "\'s Turn";
+            this.lbl_Turn.Click += new System.EventHandler(this.lbl_Turn_Click);
             // 
             // btn9
             // 
@@ -156,6 +157,7 @@ namespace Tic_Tac_Toe_Game_Simulator
             this.btn1.Size = new System.Drawing.Size(81, 69);
             this.btn1.TabIndex = 13;
             this.btn1.UseVisualStyleBackColor = true;
+            this.btn1.Click += new System.EventHandler(this.btn1_Click);
             // 
             // Tic_Tac_Toe
             // 
@@ -177,6 +179,7 @@ namespace Tic_Tac_Toe_Game_Simulator
             this.Controls.Add(this.btn1);
             this.Name = "Tic_Tac_Toe";
             this.Text = "Tic-Tac-Toe ";
+            this.Load += new System.EventHandler(this.Tic_Tac_Toe_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
