@@ -38,7 +38,6 @@ namespace Tic_Tac_Toe_Game_Simulator
             this.ClientSize = new System.Drawing.Size(355, 409);
             this.Name = "Form2";
             this.Text = "Tic-Tac-Toe ";
-            this.Load += new System.EventHandler(this.Form2_Load);
             this.ResumeLayout(false);
 
         }

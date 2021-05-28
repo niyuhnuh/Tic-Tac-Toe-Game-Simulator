@@ -29,10 +29,6 @@ namespace Tic_Tac_Toe_Game_Simulator
         /// </summary>
         private void InitializeComponent()
         {
-            this.lbl_playerOne = new System.Windows.Forms.Label();
-            this.lbl_playerTwo = new System.Windows.Forms.Label();
-            this.txtbx_Name1 = new System.Windows.Forms.TextBox();
-            this.txtbx_Name2 = new System.Windows.Forms.TextBox();
             this.btn_Exit = new System.Windows.Forms.Button();
             this.btn_Reset = new System.Windows.Forms.Button();
             this.lbl_Status = new System.Windows.Forms.Label();
@@ -47,44 +43,6 @@ namespace Tic_Tac_Toe_Game_Simulator
             this.btn2 = new System.Windows.Forms.Button();
             this.btn1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // lbl_playerOne
-            // 
-            this.lbl_playerOne.AutoSize = true;
-            this.lbl_playerOne.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbl_playerOne.Location = new System.Drawing.Point(53, 309);
-            this.lbl_playerOne.Name = "lbl_playerOne";
-            this.lbl_playerOne.Size = new System.Drawing.Size(108, 18);
-            this.lbl_playerOne.TabIndex = 1;
-            this.lbl_playerOne.Text = "PLAYER 1: ";
-            this.lbl_playerOne.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // lbl_playerTwo
-            // 
-            this.lbl_playerTwo.AutoSize = true;
-            this.lbl_playerTwo.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbl_playerTwo.Location = new System.Drawing.Point(205, 309);
-            this.lbl_playerTwo.Name = "lbl_playerTwo";
-            this.lbl_playerTwo.Size = new System.Drawing.Size(98, 18);
-            this.lbl_playerTwo.TabIndex = 2;
-            this.lbl_playerTwo.Text = "PLAYER 2:";
-            this.lbl_playerTwo.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // txtbx_Name1
-            // 
-            this.txtbx_Name1.Location = new System.Drawing.Point(39, 330);
-            this.txtbx_Name1.Name = "txtbx_Name1";
-            this.txtbx_Name1.Size = new System.Drawing.Size(120, 23);
-            this.txtbx_Name1.TabIndex = 3;
-            this.txtbx_Name1.TextChanged += new System.EventHandler(this.txtbx_Name1_TextChanged);
-            // 
-            // txtbx_Name2
-            // 
-            this.txtbx_Name2.Location = new System.Drawing.Point(190, 330);
-            this.txtbx_Name2.Name = "txtbx_Name2";
-            this.txtbx_Name2.Size = new System.Drawing.Size(120, 23);
-            this.txtbx_Name2.TabIndex = 4;
-            this.txtbx_Name2.TextChanged += new System.EventHandler(this.txtbx_Name2_TextChanged);
             // 
             // btn_Exit
             // 
@@ -217,10 +175,6 @@ namespace Tic_Tac_Toe_Game_Simulator
             this.Controls.Add(this.btn3);
             this.Controls.Add(this.btn2);
             this.Controls.Add(this.btn1);
-            this.Controls.Add(this.txtbx_Name2);
-            this.Controls.Add(this.txtbx_Name1);
-            this.Controls.Add(this.lbl_playerTwo);
-            this.Controls.Add(this.lbl_playerOne);
             this.Name = "Tic_Tac_Toe";
             this.Text = "Tic-Tac-Toe ";
             this.ResumeLayout(false);
@@ -229,10 +183,6 @@ namespace Tic_Tac_Toe_Game_Simulator
         }
 
         #endregion
-        private System.Windows.Forms.Label lbl_playerOne;
-        private System.Windows.Forms.Label lbl_playerTwo;
-        public System.Windows.Forms.TextBox txtbx_Name1;
-        public System.Windows.Forms.TextBox txtbx_Name2;
         private System.Windows.Forms.Button btn_Exit;
         private System.Windows.Forms.Button btn_Reset;
         private System.Windows.Forms.Label lbl_Status;
