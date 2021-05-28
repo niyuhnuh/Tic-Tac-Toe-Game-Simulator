@@ -144,7 +144,6 @@ namespace Tic_Tac_Toe_Game_Simulator
             this.chckBox_O1.Size = new System.Drawing.Size(35, 19);
             this.chckBox_O1.TabIndex = 13;
             this.chckBox_O1.Text = "O";
-            this.chckBox_O1.ThreeState = true;
             this.chckBox_O1.UseVisualStyleBackColor = true;
             this.chckBox_O1.CheckedChanged += new System.EventHandler(this.chckBox_O1_CheckedChanged);
             // 
@@ -156,7 +155,6 @@ namespace Tic_Tac_Toe_Game_Simulator
             this.chckBox_X2.Size = new System.Drawing.Size(33, 19);
             this.chckBox_X2.TabIndex = 14;
             this.chckBox_X2.Text = "X";
-            this.chckBox_X2.ThreeState = true;
             this.chckBox_X2.UseVisualStyleBackColor = true;
             this.chckBox_X2.CheckedChanged += new System.EventHandler(this.chckBox_X2_CheckedChanged);
             // 
@@ -168,7 +166,6 @@ namespace Tic_Tac_Toe_Game_Simulator
             this.chckBox_O2.Size = new System.Drawing.Size(35, 19);
             this.chckBox_O2.TabIndex = 15;
             this.chckBox_O2.Text = "O";
-            this.chckBox_O2.ThreeState = true;
             this.chckBox_O2.UseVisualStyleBackColor = true;
             this.chckBox_O2.CheckedChanged += new System.EventHandler(this.chckBox_O2_CheckedChanged);
             // 

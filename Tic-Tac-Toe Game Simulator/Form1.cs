@@ -70,10 +70,14 @@ namespace Tic_Tac_Toe_Game_Simulator
             if (chckBox_X1.Checked == true)
             {
                 chckBox_X2.Visible = false;
+                chckBox_O1.Visible = false;
+                chckBox_O2.Checked = true;
             }
             else
             {
+                chckBox_O1.Visible = true;
                 chckBox_X2.Visible = true;
+                chckBox_O2.Checked = false;
             }
         }
 
@@ -82,10 +86,14 @@ namespace Tic_Tac_Toe_Game_Simulator
             if (chckBox_O1.Checked == true)
             {
                 chckBox_O2.Visible = false;
+                chckBox_X1.Visible = false;
+                chckBox_X2.Checked = true;
             }
             else
             {
+                chckBox_X1.Visible = true;
                 chckBox_O2.Visible = true;
+                chckBox_X2.Checked = false;
             }
         }
 
@@ -93,11 +101,15 @@ namespace Tic_Tac_Toe_Game_Simulator
         {
             if (chckBox_X2.Checked == true)
             {
+                chckBox_O2.Visible = false;
                 chckBox_X1.Visible = false;
+                chckBox_O1.Checked = true;
             }
             else
-           {
+            {
+                chckBox_O2.Visible = true;
                 chckBox_X1.Visible = true;
+                chckBox_O1.Checked = false;
             }
         }
 
@@ -106,10 +118,14 @@ namespace Tic_Tac_Toe_Game_Simulator
             if (chckBox_O2.Checked == true)
             {
                 chckBox_O1.Visible = false;
+                chckBox_X2.Visible = false;
+                chckBox_X1.Checked = true;
             }
             else
             {
+                chckBox_X2.Visible = true;
                 chckBox_O1.Visible = true;
+                chckBox_X1.Checked = false;
             }
         }
     }
