@@ -13,6 +13,15 @@ namespace Tic_Tac_Toe_Game_Simulator
         public Form2()
         {
             InitializeComponent();
+        }  
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
         }
+
+        private void btn1_Click(object sender, EventArgs e)
+        { }
+        
     }
 }

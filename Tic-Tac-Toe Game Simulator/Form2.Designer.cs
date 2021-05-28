@@ -51,6 +51,7 @@ namespace Tic_Tac_Toe_Game_Simulator
             this.btn1.Size = new System.Drawing.Size(81, 69);
             this.btn1.TabIndex = 0;
             this.btn1.UseVisualStyleBackColor = true;
+            this.btn1.Click += new System.EventHandler(this.btn1_Click);
             // 
             // btn2
             // 
@@ -177,6 +178,7 @@ namespace Tic_Tac_Toe_Game_Simulator
             this.Controls.Add(this.btn1);
             this.Name = "Form2";
             this.Text = "Tic-Tac-Toe ";
+            this.Load += new System.EventHandler(this.Form2_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -20,22 +20,15 @@ namespace Tic_Tac_Toe_Game_Simulator
         string player1 = "";
         string player2 = "";
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void rb_X2_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void btn_Play_Click(object sender, EventArgs e)
         {
 
             if (player1 != "" && player2 != "")
             {
                 this.Hide();
+
+                player1 = txtbx_Name1.Text;
+                player2 = txtbx_Name2.Text;
 
                 Form2 mainForm = new Form2();
                 mainForm.ShowDialog();
