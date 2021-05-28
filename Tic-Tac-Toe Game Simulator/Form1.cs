@@ -20,20 +20,16 @@ namespace Tic_Tac_Toe_Game_Simulator
         int turn = 1;
         string player_X = "X";
         string player_O = "O";
+        int turn_count = 1; 
 
         private void lbl_Turn_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void btn1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void Tic_Tac_Toe_Load(object sender, EventArgs e)
-        {
-            int turn_count = turn;
+        { 
+            
             if (turn_count % 2 == 0)
             {
                 lbl_Turn.Text = "O's Turn";
@@ -43,6 +39,25 @@ namespace Tic_Tac_Toe_Game_Simulator
             {
                 lbl_Turn.Text = "X's Turn";
             }
+        }
+
+        private void button_Click(object sender, EventArgs e)
+        {
+            for (int turn = 1; turn <= 9; turn++)
+            {
+                if (turn <= 9 && turn_count % 2 == 0)
+                {
+                    btn1.Text = player_O.ToString();
+                    
+                }
+
+                else if (turn <= 9 && turn_count % 2 != 0)
+                {
+                    btn1.Text = player_X.ToString();
+      
+                }
+            }
+            
         }
     }
 }
