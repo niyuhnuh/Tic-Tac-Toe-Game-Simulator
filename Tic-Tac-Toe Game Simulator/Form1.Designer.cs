@@ -29,35 +29,30 @@ namespace Tic_Tac_Toe_Game_Simulator
         /// </summary>
         private void InitializeComponent()
         {
-            this.gameTitle = new System.Windows.Forms.Label();
             this.lbl_playerOne = new System.Windows.Forms.Label();
             this.lbl_playerTwo = new System.Windows.Forms.Label();
             this.txtbx_Name1 = new System.Windows.Forms.TextBox();
             this.txtbx_Name2 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.btn_Play = new System.Windows.Forms.Button();
-            this.chckBox_X1 = new System.Windows.Forms.CheckBox();
-            this.chckBox_O1 = new System.Windows.Forms.CheckBox();
-            this.chckBox_X2 = new System.Windows.Forms.CheckBox();
-            this.chckBox_O2 = new System.Windows.Forms.CheckBox();
+            this.btn_Exit = new System.Windows.Forms.Button();
+            this.btn_Reset = new System.Windows.Forms.Button();
+            this.lbl_Status = new System.Windows.Forms.Label();
+            this.lbl_Turn = new System.Windows.Forms.Label();
+            this.btn9 = new System.Windows.Forms.Button();
+            this.btn8 = new System.Windows.Forms.Button();
+            this.btn7 = new System.Windows.Forms.Button();
+            this.btn6 = new System.Windows.Forms.Button();
+            this.btn5 = new System.Windows.Forms.Button();
+            this.btn4 = new System.Windows.Forms.Button();
+            this.btn3 = new System.Windows.Forms.Button();
+            this.btn2 = new System.Windows.Forms.Button();
+            this.btn1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // gameTitle
-            // 
-            this.gameTitle.AutoSize = true;
-            this.gameTitle.Font = new System.Drawing.Font("Courier New", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.gameTitle.Location = new System.Drawing.Point(12, 98);
-            this.gameTitle.Name = "gameTitle";
-            this.gameTitle.Size = new System.Drawing.Size(342, 54);
-            this.gameTitle.TabIndex = 0;
-            this.gameTitle.Text = "Tic-Tac-Toe";
             // 
             // lbl_playerOne
             // 
             this.lbl_playerOne.AutoSize = true;
             this.lbl_playerOne.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbl_playerOne.Location = new System.Drawing.Point(46, 205);
+            this.lbl_playerOne.Location = new System.Drawing.Point(53, 309);
             this.lbl_playerOne.Name = "lbl_playerOne";
             this.lbl_playerOne.Size = new System.Drawing.Size(108, 18);
             this.lbl_playerOne.TabIndex = 1;
@@ -68,7 +63,7 @@ namespace Tic_Tac_Toe_Game_Simulator
             // 
             this.lbl_playerTwo.AutoSize = true;
             this.lbl_playerTwo.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbl_playerTwo.Location = new System.Drawing.Point(198, 205);
+            this.lbl_playerTwo.Location = new System.Drawing.Point(205, 309);
             this.lbl_playerTwo.Name = "lbl_playerTwo";
             this.lbl_playerTwo.Size = new System.Drawing.Size(98, 18);
             this.lbl_playerTwo.TabIndex = 2;
@@ -77,7 +72,7 @@ namespace Tic_Tac_Toe_Game_Simulator
             // 
             // txtbx_Name1
             // 
-            this.txtbx_Name1.Location = new System.Drawing.Point(32, 226);
+            this.txtbx_Name1.Location = new System.Drawing.Point(39, 330);
             this.txtbx_Name1.Name = "txtbx_Name1";
             this.txtbx_Name1.Size = new System.Drawing.Size(120, 23);
             this.txtbx_Name1.TabIndex = 3;
@@ -85,107 +80,147 @@ namespace Tic_Tac_Toe_Game_Simulator
             // 
             // txtbx_Name2
             // 
-            this.txtbx_Name2.Location = new System.Drawing.Point(183, 226);
+            this.txtbx_Name2.Location = new System.Drawing.Point(190, 330);
             this.txtbx_Name2.Name = "txtbx_Name2";
             this.txtbx_Name2.Size = new System.Drawing.Size(120, 23);
             this.txtbx_Name2.TabIndex = 4;
             this.txtbx_Name2.TextChanged += new System.EventHandler(this.txtbx_Name2_TextChanged);
             // 
-            // label1
+            // btn_Exit
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(49, 254);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(98, 18);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "PLAY AS: ";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.btn_Exit.Font = new System.Drawing.Font("Courier New", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_Exit.Location = new System.Drawing.Point(268, 345);
+            this.btn_Exit.Name = "btn_Exit";
+            this.btn_Exit.Size = new System.Drawing.Size(75, 23);
+            this.btn_Exit.TabIndex = 25;
+            this.btn_Exit.Text = "Exit";
+            this.btn_Exit.UseVisualStyleBackColor = true;
             // 
-            // label2
+            // btn_Reset
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(200, 254);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(98, 18);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "PLAY AS: ";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btn_Reset.Font = new System.Drawing.Font("Courier New", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_Reset.Location = new System.Drawing.Point(12, 345);
+            this.btn_Reset.Name = "btn_Reset";
+            this.btn_Reset.Size = new System.Drawing.Size(75, 23);
+            this.btn_Reset.TabIndex = 24;
+            this.btn_Reset.Text = "Reset";
+            this.btn_Reset.UseVisualStyleBackColor = true;
             // 
-            // btn_Play
+            // lbl_Status
             // 
-            this.btn_Play.Font = new System.Drawing.Font("Courier New", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btn_Play.Location = new System.Drawing.Point(100, 314);
-            this.btn_Play.Name = "btn_Play";
-            this.btn_Play.Size = new System.Drawing.Size(132, 23);
-            this.btn_Play.TabIndex = 11;
-            this.btn_Play.Text = "Let\'s Play!";
-            this.btn_Play.UseVisualStyleBackColor = true;
-            this.btn_Play.Click += new System.EventHandler(this.btn_Play_Click);
+            this.lbl_Status.AutoSize = true;
+            this.lbl_Status.Font = new System.Drawing.Font("Courier New", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbl_Status.Location = new System.Drawing.Point(114, 345);
+            this.lbl_Status.Name = "lbl_Status";
+            this.lbl_Status.Size = new System.Drawing.Size(129, 36);
+            this.lbl_Status.TabIndex = 23;
+            this.lbl_Status.Text = "label2";
+            this.lbl_Status.Visible = false;
             // 
-            // chckBox_X1
+            // lbl_Turn
             // 
-            this.chckBox_X1.AutoSize = true;
-            this.chckBox_X1.Location = new System.Drawing.Point(49, 275);
-            this.chckBox_X1.Name = "chckBox_X1";
-            this.chckBox_X1.Size = new System.Drawing.Size(33, 19);
-            this.chckBox_X1.TabIndex = 12;
-            this.chckBox_X1.Text = "X";
-            this.chckBox_X1.UseVisualStyleBackColor = true;
-            this.chckBox_X1.CheckedChanged += new System.EventHandler(this.chckBox_X1_CheckedChanged);
+            this.lbl_Turn.AutoSize = true;
+            this.lbl_Turn.Font = new System.Drawing.Font("Courier New", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbl_Turn.Location = new System.Drawing.Point(114, 25);
+            this.lbl_Turn.Name = "lbl_Turn";
+            this.lbl_Turn.Size = new System.Drawing.Size(148, 36);
+            this.lbl_Turn.TabIndex = 22;
+            this.lbl_Turn.Text = "\'s Turn";
             // 
-            // chckBox_O1
+            // btn9
             // 
-            this.chckBox_O1.AutoSize = true;
-            this.chckBox_O1.Location = new System.Drawing.Point(100, 275);
-            this.chckBox_O1.Name = "chckBox_O1";
-            this.chckBox_O1.Size = new System.Drawing.Size(35, 19);
-            this.chckBox_O1.TabIndex = 13;
-            this.chckBox_O1.Text = "O";
-            this.chckBox_O1.UseVisualStyleBackColor = true;
-            this.chckBox_O1.CheckedChanged += new System.EventHandler(this.chckBox_O1_CheckedChanged);
+            this.btn9.Location = new System.Drawing.Point(221, 243);
+            this.btn9.Name = "btn9";
+            this.btn9.Size = new System.Drawing.Size(81, 69);
+            this.btn9.TabIndex = 21;
+            this.btn9.UseVisualStyleBackColor = true;
             // 
-            // chckBox_X2
+            // btn8
             // 
-            this.chckBox_X2.AutoSize = true;
-            this.chckBox_X2.Location = new System.Drawing.Point(198, 275);
-            this.chckBox_X2.Name = "chckBox_X2";
-            this.chckBox_X2.Size = new System.Drawing.Size(33, 19);
-            this.chckBox_X2.TabIndex = 14;
-            this.chckBox_X2.Text = "X";
-            this.chckBox_X2.UseVisualStyleBackColor = true;
-            this.chckBox_X2.CheckedChanged += new System.EventHandler(this.chckBox_X2_CheckedChanged);
+            this.btn8.Location = new System.Drawing.Point(134, 243);
+            this.btn8.Name = "btn8";
+            this.btn8.Size = new System.Drawing.Size(81, 69);
+            this.btn8.TabIndex = 20;
+            this.btn8.UseVisualStyleBackColor = true;
             // 
-            // chckBox_O2
+            // btn7
             // 
-            this.chckBox_O2.AutoSize = true;
-            this.chckBox_O2.Location = new System.Drawing.Point(249, 275);
-            this.chckBox_O2.Name = "chckBox_O2";
-            this.chckBox_O2.Size = new System.Drawing.Size(35, 19);
-            this.chckBox_O2.TabIndex = 15;
-            this.chckBox_O2.Text = "O";
-            this.chckBox_O2.UseVisualStyleBackColor = true;
-            this.chckBox_O2.CheckedChanged += new System.EventHandler(this.chckBox_O2_CheckedChanged);
+            this.btn7.Location = new System.Drawing.Point(47, 243);
+            this.btn7.Name = "btn7";
+            this.btn7.Size = new System.Drawing.Size(81, 69);
+            this.btn7.TabIndex = 19;
+            this.btn7.UseVisualStyleBackColor = true;
+            // 
+            // btn6
+            // 
+            this.btn6.Location = new System.Drawing.Point(221, 159);
+            this.btn6.Name = "btn6";
+            this.btn6.Size = new System.Drawing.Size(81, 69);
+            this.btn6.TabIndex = 18;
+            this.btn6.UseVisualStyleBackColor = true;
+            // 
+            // btn5
+            // 
+            this.btn5.Location = new System.Drawing.Point(134, 159);
+            this.btn5.Name = "btn5";
+            this.btn5.Size = new System.Drawing.Size(81, 69);
+            this.btn5.TabIndex = 17;
+            this.btn5.UseVisualStyleBackColor = true;
+            // 
+            // btn4
+            // 
+            this.btn4.Location = new System.Drawing.Point(47, 159);
+            this.btn4.Name = "btn4";
+            this.btn4.Size = new System.Drawing.Size(81, 69);
+            this.btn4.TabIndex = 16;
+            this.btn4.UseVisualStyleBackColor = true;
+            // 
+            // btn3
+            // 
+            this.btn3.Location = new System.Drawing.Point(221, 74);
+            this.btn3.Name = "btn3";
+            this.btn3.Size = new System.Drawing.Size(81, 69);
+            this.btn3.TabIndex = 15;
+            this.btn3.UseVisualStyleBackColor = true;
+            // 
+            // btn2
+            // 
+            this.btn2.Location = new System.Drawing.Point(134, 74);
+            this.btn2.Name = "btn2";
+            this.btn2.Size = new System.Drawing.Size(81, 69);
+            this.btn2.TabIndex = 14;
+            this.btn2.UseVisualStyleBackColor = true;
+            // 
+            // btn1
+            // 
+            this.btn1.Location = new System.Drawing.Point(47, 74);
+            this.btn1.Name = "btn1";
+            this.btn1.Size = new System.Drawing.Size(81, 69);
+            this.btn1.TabIndex = 13;
+            this.btn1.UseVisualStyleBackColor = true;
             // 
             // Tic_Tac_Toe
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(355, 407);
-            this.Controls.Add(this.chckBox_O2);
-            this.Controls.Add(this.chckBox_X2);
-            this.Controls.Add(this.chckBox_O1);
-            this.Controls.Add(this.chckBox_X1);
-            this.Controls.Add(this.btn_Play);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.btn_Exit);
+            this.Controls.Add(this.btn_Reset);
+            this.Controls.Add(this.lbl_Status);
+            this.Controls.Add(this.lbl_Turn);
+            this.Controls.Add(this.btn9);
+            this.Controls.Add(this.btn8);
+            this.Controls.Add(this.btn7);
+            this.Controls.Add(this.btn6);
+            this.Controls.Add(this.btn5);
+            this.Controls.Add(this.btn4);
+            this.Controls.Add(this.btn3);
+            this.Controls.Add(this.btn2);
+            this.Controls.Add(this.btn1);
             this.Controls.Add(this.txtbx_Name2);
             this.Controls.Add(this.txtbx_Name1);
             this.Controls.Add(this.lbl_playerTwo);
             this.Controls.Add(this.lbl_playerOne);
-            this.Controls.Add(this.gameTitle);
             this.Name = "Tic_Tac_Toe";
             this.Text = "Tic-Tac-Toe ";
             this.ResumeLayout(false);
@@ -194,19 +229,23 @@ namespace Tic_Tac_Toe_Game_Simulator
         }
 
         #endregion
-
-        private System.Windows.Forms.Label gameTitle;
         private System.Windows.Forms.Label lbl_playerOne;
         private System.Windows.Forms.Label lbl_playerTwo;
-        private System.Windows.Forms.TextBox txtbx_Name1;
-        private System.Windows.Forms.TextBox txtbx_Name2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button btn_Play;
-        private System.Windows.Forms.CheckBox chckBox_X1;
-        private System.Windows.Forms.CheckBox chckBox_O1;
-        private System.Windows.Forms.CheckBox chckBox_X2;
-        private System.Windows.Forms.CheckBox chckBox_O2;
+        public System.Windows.Forms.TextBox txtbx_Name1;
+        public System.Windows.Forms.TextBox txtbx_Name2;
+        private System.Windows.Forms.Button btn_Exit;
+        private System.Windows.Forms.Button btn_Reset;
+        private System.Windows.Forms.Label lbl_Status;
+        private System.Windows.Forms.Label lbl_Turn;
+        private System.Windows.Forms.Button btn9;
+        private System.Windows.Forms.Button btn8;
+        private System.Windows.Forms.Button btn7;
+        private System.Windows.Forms.Button btn6;
+        private System.Windows.Forms.Button btn5;
+        private System.Windows.Forms.Button btn4;
+        private System.Windows.Forms.Button btn3;
+        private System.Windows.Forms.Button btn2;
+        private System.Windows.Forms.Button btn1;
     }
 }
 

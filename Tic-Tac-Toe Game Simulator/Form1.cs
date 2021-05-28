@@ -17,10 +17,10 @@ namespace Tic_Tac_Toe_Game_Simulator
             InitializeComponent();
         }
 
-        string player1 = "";
-        string player2 = "";
+         string player1 = "";
+         string player2 = "";
 
-        private void btn_Play_Click(object sender, EventArgs e)
+        public void btn_Play_Click(object sender, EventArgs e)
         {
 
             if (player1 != "" && player2 != "")
@@ -46,19 +46,19 @@ namespace Tic_Tac_Toe_Game_Simulator
          
         }
 
-        private void txtbx_Name1_TextChanged(object sender, EventArgs e)
+        public void txtbx_Name1_TextChanged(object sender, EventArgs e)
         {
             player1 = txtbx_Name1.Text.ToString();
 
         }
 
-        private void txtbx_Name2_TextChanged(object sender, EventArgs e)
+        public void txtbx_Name2_TextChanged(object sender, EventArgs e)
         {
             player2 = txtbx_Name2.Text.ToString();
 
         }
 
-        private void chckBox_X1_CheckedChanged(object sender, EventArgs e)
+        public void chckBox_X1_CheckedChanged(object sender, EventArgs e)
         {
             if (chckBox_X1.Checked == true)
             {
@@ -74,7 +74,7 @@ namespace Tic_Tac_Toe_Game_Simulator
             }
         }
 
-        private void chckBox_O1_CheckedChanged(object sender, EventArgs e)
+        public void chckBox_O1_CheckedChanged(object sender, EventArgs e)
         {
             if (chckBox_O1.Checked == true)
             {
@@ -90,7 +90,7 @@ namespace Tic_Tac_Toe_Game_Simulator
             }
         }
 
-        private void chckBox_X2_CheckedChanged(object sender, EventArgs e)
+        public void chckBox_X2_CheckedChanged(object sender, EventArgs e)
         {
             if (chckBox_X2.Checked == true)
             {
@@ -106,7 +106,7 @@ namespace Tic_Tac_Toe_Game_Simulator
             }
         }
 
-        private void chckBox_O2_CheckedChanged(object sender, EventArgs e)
+        public void chckBox_O2_CheckedChanged(object sender, EventArgs e)
         {
             if (chckBox_O2.Checked == true)
             {
