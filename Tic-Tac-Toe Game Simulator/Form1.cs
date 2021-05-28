@@ -43,21 +43,20 @@ namespace Tic_Tac_Toe_Game_Simulator
 
         private void button_Click(object sender, EventArgs e)
         {
-            for (int turn = 1; turn <= 9; turn++)
+            while (turn <= 9)
             {
-                if (turn <= 9 && turn_count % 2 == 0)
+                if (turn_count % 2 == 0)
                 {
                     btn1.Text = player_O.ToString();
-                    
+                    turn++;
                 }
 
-                else if (turn <= 9 && turn_count % 2 != 0)
+                else if (turn_count % 2 != 0)
                 {
                     btn1.Text = player_X.ToString();
-      
+                    turn++;
                 }
             }
-            
         }
     }
 }
