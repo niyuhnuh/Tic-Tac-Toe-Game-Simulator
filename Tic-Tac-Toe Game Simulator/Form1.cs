@@ -17,7 +17,7 @@ namespace Tic_Tac_Toe_Game_Simulator
             InitializeComponent();
         }
 
-
+        int turn = 1;
         string player_X = "X";
         string player_O = "O";
         int turn_count = 1; 
@@ -43,19 +43,18 @@ namespace Tic_Tac_Toe_Game_Simulator
 
         private void button_Click(object sender, EventArgs e)
         {
-            int turn = 1;
-            while (turn <= 9)
+            Button button = new Button();
+            
+            for (turn = 1; turn <= 9; turn++)
             {
                 if (turn_count % 2 == 0)
                 {
-                    btn1.Text = player_O.ToString();
-                    turn++;
+                    button.Text = player_O.ToString();
                 }
 
                 else 
                 {
-                    btn1.Text = player_X.ToString();
-                    turn++;
+                    button.Text = player_X.ToString();
                 }
             }
         }
