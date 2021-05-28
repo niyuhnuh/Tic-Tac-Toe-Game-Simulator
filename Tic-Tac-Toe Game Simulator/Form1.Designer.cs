@@ -32,8 +32,8 @@ namespace Tic_Tac_Toe_Game_Simulator
             this.gameTitle = new System.Windows.Forms.Label();
             this.lbl_playerOne = new System.Windows.Forms.Label();
             this.lbl_playerTwo = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtbx_Name1 = new System.Windows.Forms.TextBox();
+            this.txtbx_Name2 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.btn_Play = new System.Windows.Forms.Button();
@@ -75,19 +75,21 @@ namespace Tic_Tac_Toe_Game_Simulator
             this.lbl_playerTwo.Text = "PLAYER 2:";
             this.lbl_playerTwo.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // textBox1
+            // txtbx_Name1
             // 
-            this.textBox1.Location = new System.Drawing.Point(32, 226);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(120, 23);
-            this.textBox1.TabIndex = 3;
+            this.txtbx_Name1.Location = new System.Drawing.Point(32, 226);
+            this.txtbx_Name1.Name = "txtbx_Name1";
+            this.txtbx_Name1.Size = new System.Drawing.Size(120, 23);
+            this.txtbx_Name1.TabIndex = 3;
+            this.txtbx_Name1.TextChanged += new System.EventHandler(this.txtbx_Name1_TextChanged);
             // 
-            // textBox2
+            // txtbx_Name2
             // 
-            this.textBox2.Location = new System.Drawing.Point(183, 226);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(120, 23);
-            this.textBox2.TabIndex = 4;
+            this.txtbx_Name2.Location = new System.Drawing.Point(183, 226);
+            this.txtbx_Name2.Name = "txtbx_Name2";
+            this.txtbx_Name2.Size = new System.Drawing.Size(120, 23);
+            this.txtbx_Name2.TabIndex = 4;
+            this.txtbx_Name2.TextChanged += new System.EventHandler(this.txtbx_Name2_TextChanged);
             // 
             // label1
             // 
@@ -121,6 +123,7 @@ namespace Tic_Tac_Toe_Game_Simulator
             this.btn_Play.TabIndex = 11;
             this.btn_Play.Text = "Let\'s Play!";
             this.btn_Play.UseVisualStyleBackColor = true;
+            this.btn_Play.Click += new System.EventHandler(this.btn_Play_Click);
             // 
             // chckBox_X1
             // 
@@ -131,6 +134,7 @@ namespace Tic_Tac_Toe_Game_Simulator
             this.chckBox_X1.TabIndex = 12;
             this.chckBox_X1.Text = "X";
             this.chckBox_X1.UseVisualStyleBackColor = true;
+            this.chckBox_X1.CheckedChanged += new System.EventHandler(this.chckBox_X1_CheckedChanged);
             // 
             // chckBox_O1
             // 
@@ -140,7 +144,9 @@ namespace Tic_Tac_Toe_Game_Simulator
             this.chckBox_O1.Size = new System.Drawing.Size(35, 19);
             this.chckBox_O1.TabIndex = 13;
             this.chckBox_O1.Text = "O";
+            this.chckBox_O1.ThreeState = true;
             this.chckBox_O1.UseVisualStyleBackColor = true;
+            this.chckBox_O1.CheckedChanged += new System.EventHandler(this.chckBox_O1_CheckedChanged);
             // 
             // chckBox_X2
             // 
@@ -150,7 +156,9 @@ namespace Tic_Tac_Toe_Game_Simulator
             this.chckBox_X2.Size = new System.Drawing.Size(33, 19);
             this.chckBox_X2.TabIndex = 14;
             this.chckBox_X2.Text = "X";
+            this.chckBox_X2.ThreeState = true;
             this.chckBox_X2.UseVisualStyleBackColor = true;
+            this.chckBox_X2.CheckedChanged += new System.EventHandler(this.chckBox_X2_CheckedChanged);
             // 
             // chckBox_O2
             // 
@@ -160,7 +168,9 @@ namespace Tic_Tac_Toe_Game_Simulator
             this.chckBox_O2.Size = new System.Drawing.Size(35, 19);
             this.chckBox_O2.TabIndex = 15;
             this.chckBox_O2.Text = "O";
+            this.chckBox_O2.ThreeState = true;
             this.chckBox_O2.UseVisualStyleBackColor = true;
+            this.chckBox_O2.CheckedChanged += new System.EventHandler(this.chckBox_O2_CheckedChanged);
             // 
             // Tic_Tac_Toe
             // 
@@ -174,8 +184,8 @@ namespace Tic_Tac_Toe_Game_Simulator
             this.Controls.Add(this.btn_Play);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtbx_Name2);
+            this.Controls.Add(this.txtbx_Name1);
             this.Controls.Add(this.lbl_playerTwo);
             this.Controls.Add(this.lbl_playerOne);
             this.Controls.Add(this.gameTitle);
@@ -191,8 +201,8 @@ namespace Tic_Tac_Toe_Game_Simulator
         private System.Windows.Forms.Label gameTitle;
         private System.Windows.Forms.Label lbl_playerOne;
         private System.Windows.Forms.Label lbl_playerTwo;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtbx_Name1;
+        private System.Windows.Forms.TextBox txtbx_Name2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btn_Play;

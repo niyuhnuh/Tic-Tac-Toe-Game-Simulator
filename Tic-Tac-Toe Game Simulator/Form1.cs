@@ -17,6 +17,9 @@ namespace Tic_Tac_Toe_Game_Simulator
             InitializeComponent();
         }
 
+        string player1 = "";
+        string player2 = "";
+
         private void label1_Click(object sender, EventArgs e)
         {
 
@@ -25,6 +28,89 @@ namespace Tic_Tac_Toe_Game_Simulator
         private void rb_X2_CheckedChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void btn_Play_Click(object sender, EventArgs e)
+        {
+
+            if (player1 != "" && player2 != "")
+            {
+                this.Hide();
+
+                Form2 mainForm = new Form2();
+                mainForm.ShowDialog();
+          
+            }
+
+            else
+            {
+                MessageBox.Show("Please enter a name.");
+
+            }
+
+            
+
+         
+        }
+
+        private void txtbx_Name1_TextChanged(object sender, EventArgs e)
+        {
+            player1 = txtbx_Name1.Text.ToString();
+
+        }
+
+        private void txtbx_Name2_TextChanged(object sender, EventArgs e)
+        {
+            player2 = txtbx_Name2.Text.ToString();
+
+        }
+
+        private void chckBox_X1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chckBox_X1.Checked == true)
+            {
+                chckBox_X2.Visible = false;
+            }
+            else
+            {
+                chckBox_X2.Visible = true;
+            }
+        }
+
+        private void chckBox_O1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chckBox_O1.Checked == true)
+            {
+                chckBox_O2.Visible = false;
+            }
+            else
+            {
+                chckBox_O2.Visible = true;
+            }
+        }
+
+        private void chckBox_X2_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chckBox_X2.Checked == true)
+            {
+                chckBox_X1.Visible = false;
+            }
+            else
+           {
+                chckBox_X1.Visible = true;
+            }
+        }
+
+        private void chckBox_O2_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chckBox_O2.Checked == true)
+            {
+                chckBox_O1.Visible = false;
+            }
+            else
+            {
+                chckBox_O1.Visible = true;
+            }
         }
     }
 }
