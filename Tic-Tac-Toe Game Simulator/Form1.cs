@@ -25,8 +25,7 @@ namespace Tic_Tac_Toe_Game_Simulator
         private void checkWinner()
         {
             //Horizontal Wins 
-
-           if ((btn1.Text == btn2.Text) && (btn2.Text == btn3.Text) && (btn1.Text == btn3.Text) && (countingTurns >= 8) && (turn = true))
+           if ((btn1.Text == btn2.Text) && (btn2.Text == btn3.Text) && (btn1.Text == btn3.Text) && (countingTurns >= 5) && (turn = true) && (!btn1.Enabled))
            {
                 lbl_Status.Visible = true;
                 lbl_Status.Text = "Game Over!";
@@ -52,7 +51,7 @@ namespace Tic_Tac_Toe_Game_Simulator
 
             
 
-            if ((btn4.Text == btn5.Text) && (btn5.Text == btn6.Text) && (btn6.Text == btn4.Text) && (countingTurns >= 8))
+            if ((btn4.Text == btn5.Text) && (btn5.Text == btn6.Text) && (btn6.Text == btn4.Text) && (countingTurns >= 5) && (!btn4.Enabled))
             {
 
                 lbl_Status.Visible = true;
@@ -77,7 +76,7 @@ namespace Tic_Tac_Toe_Game_Simulator
                 }
             }
 
-           if ((btn7.Text == btn8.Text) && (btn8.Text == btn9.Text) && (btn9.Text == btn7.Text) && (countingTurns >= 8))
+           if ((btn7.Text == btn8.Text) && (btn8.Text == btn9.Text) && (btn9.Text == btn7.Text) && (countingTurns >= 5) && (!btn7.Enabled))
             {
                 lbl_Status.Visible = true;
                 lbl_Status.Text = "Game Over!";
