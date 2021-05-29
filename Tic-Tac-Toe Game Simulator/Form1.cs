@@ -25,29 +25,53 @@ namespace Tic_Tac_Toe_Game_Simulator
             //Horizontal Wins 
 
            if ((btn1.Text == btn2.Text) && (btn1.Text == btn3.Text) && (countingTurns >= 5))
-            {
+           {
                 lbl_Status.Visible = true;
                 lbl_Status.Text = "Game Over!";
-                lbl_Turn.Text = btn1.Text + "is a Winner";
-            }
+                string player = btn1.Text;
+                lbl_Turn.Text = player + " is a Winner";
+           }
 
             if ((btn4.Text == btn5.Text) && (btn4.Text == btn6.Text) && (countingTurns >= 5))
             {
                 lbl_Status.Visible = true;
                 lbl_Status.Text = "Game Over!";
-                lbl_Turn.Text = btn4.Text + "is a Winner";
+                string player = btn4.Text;
+                lbl_Turn.Text = player + " is a Winner";
             }
 
             if ((btn7.Text == btn8.Text) && (btn7.Text == btn9.Text) && (countingTurns >= 5))
             {
                 lbl_Status.Visible = true;
                 lbl_Status.Text = "Game Over!";
-                lbl_Turn.Text = btn7.Text + "is a Winner";
+                string player = btn7.Text;
+                lbl_Turn.Text = player + " is a Winner";
             }
 
             //Vertical Wins
+            if ((btn1.Text == btn4.Text) && (btn1.Text == btn7.Text) && (countingTurns >= 5))
+            {
+                lbl_Status.Visible = true;
+                lbl_Status.Text = "Game Over!";
+                string player = btn1.Text;
+                lbl_Turn.Text = player + " is a Winner";
+            }
 
+            if ((btn2.Text == btn5.Text) && (btn2.Text == btn8.Text) && (countingTurns >= 5))
+            {
+                lbl_Status.Visible = true;
+                lbl_Status.Text = "Game Over!";
+                string player = btn2.Text;
+                lbl_Turn.Text = player + " is a Winner";
+            }
 
+            if ((btn3.Text == btn6.Text) && (btn3.Text == btn9.Text) && (countingTurns >= 5))
+            {
+                lbl_Status.Visible = true;
+                lbl_Status.Text = "Game Over!";
+                string player = btn3.Text;
+                lbl_Turn.Text = player + " is a Winner";
+            }
         }
 
         private void Tic_Tac_Toe_Load(object sender, EventArgs e)
