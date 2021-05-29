@@ -28,22 +28,26 @@ namespace Tic_Tac_Toe_Game_Simulator
             {
                 lbl_Status.Visible = true;
                 lbl_Status.Text = "Game Over!";
-                lbl_Turn.Text = "";
+                lbl_Turn.Text = btn1.Text + "is a Winner";
             }
 
             if ((btn4.Text == btn5.Text) && (btn4.Text == btn6.Text))
             {
                 lbl_Status.Visible = true;
                 lbl_Status.Text = "Game Over!";
-                lbl_Turn.Text = "";
+                lbl_Turn.Text = btn4.Text + "is a Winner";
             }
 
             if ((btn7.Text == btn8.Text) && (btn7.Text == btn9.Text))
             {
                 lbl_Status.Visible = true;
                 lbl_Status.Text = "Game Over!";
-                lbl_Turn.Text = "";
+                lbl_Turn.Text = btn7.Text + "is a Winner";
             }
+
+            //Vertical Wins
+
+
         }
 
         private void Tic_Tac_Toe_Load(object sender, EventArgs e)
