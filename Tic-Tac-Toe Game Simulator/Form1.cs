@@ -226,21 +226,11 @@ namespace Tic_Tac_Toe_Game_Simulator
                
             }
 
-            else if (countingTurns >= 9)
+            else if (!btn1.Enabled && !btn2.Enabled && !btn3.Enabled && !btn4.Enabled && !btn5.Enabled && !btn6.Enabled && !btn7.Enabled && !btn8.Enabled && !btn9.Enabled)
             {
                 lbl_Status.Visible = true;
                 lbl_Status.Text = "Its a Tie!";
                 lbl_Turn.Text = "Its a Tie!";
-
-                btn1.Enabled = false;
-                btn2.Enabled = false;
-                btn3.Enabled = false;
-                btn4.Enabled = false;
-                btn5.Enabled = false;
-                btn6.Enabled = false;
-                btn7.Enabled = false;
-                btn8.Enabled = false;
-                btn9.Enabled = false;
 
             }
 
