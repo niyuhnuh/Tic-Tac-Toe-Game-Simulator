@@ -47,30 +47,35 @@ namespace Tic_Tac_Toe_Game_Simulator
             // 
             // btn_Exit
             // 
-            this.btn_Exit.Font = new System.Drawing.Font("Courier New", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn_Exit.Location = new System.Drawing.Point(189, 372);
+            this.btn_Exit.BackColor = System.Drawing.Color.Black;
+            this.btn_Exit.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btn_Exit.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btn_Exit.Location = new System.Drawing.Point(189, 363);
             this.btn_Exit.Name = "btn_Exit";
-            this.btn_Exit.Size = new System.Drawing.Size(154, 23);
+            this.btn_Exit.Size = new System.Drawing.Size(154, 32);
             this.btn_Exit.TabIndex = 25;
             this.btn_Exit.Text = "Exit";
-            this.btn_Exit.UseVisualStyleBackColor = true;
+            this.btn_Exit.UseVisualStyleBackColor = false;
             this.btn_Exit.Click += new System.EventHandler(this.btn_Exit_Click);
             // 
             // btn_Reset
             // 
-            this.btn_Reset.Font = new System.Drawing.Font("Courier New", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn_Reset.Location = new System.Drawing.Point(12, 372);
+            this.btn_Reset.BackColor = System.Drawing.Color.Black;
+            this.btn_Reset.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btn_Reset.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btn_Reset.Location = new System.Drawing.Point(12, 363);
             this.btn_Reset.Name = "btn_Reset";
-            this.btn_Reset.Size = new System.Drawing.Size(154, 23);
+            this.btn_Reset.Size = new System.Drawing.Size(154, 32);
             this.btn_Reset.TabIndex = 24;
             this.btn_Reset.Text = "Reset";
-            this.btn_Reset.UseVisualStyleBackColor = true;
+            this.btn_Reset.UseVisualStyleBackColor = false;
             this.btn_Reset.Click += new System.EventHandler(this.btn_Reset_Click);
             // 
             // lbl_Status
             // 
             this.lbl_Status.AutoSize = true;
             this.lbl_Status.Font = new System.Drawing.Font("Courier New", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbl_Status.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.lbl_Status.Location = new System.Drawing.Point(92, 324);
             this.lbl_Status.Name = "lbl_Status";
             this.lbl_Status.Size = new System.Drawing.Size(129, 36);
@@ -82,6 +87,7 @@ namespace Tic_Tac_Toe_Game_Simulator
             // 
             this.lbl_Turn.AutoSize = true;
             this.lbl_Turn.Font = new System.Drawing.Font("Courier New", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbl_Turn.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.lbl_Turn.Location = new System.Drawing.Point(85, 24);
             this.lbl_Turn.Name = "lbl_Turn";
             this.lbl_Turn.Size = new System.Drawing.Size(167, 36);
@@ -172,7 +178,7 @@ namespace Tic_Tac_Toe_Game_Simulator
             // lbl_countingTurns
             // 
             this.lbl_countingTurns.AutoSize = true;
-            this.lbl_countingTurns.Location = new System.Drawing.Point(12, 354);
+            this.lbl_countingTurns.Location = new System.Drawing.Point(12, 345);
             this.lbl_countingTurns.Name = "lbl_countingTurns";
             this.lbl_countingTurns.Size = new System.Drawing.Size(38, 15);
             this.lbl_countingTurns.TabIndex = 26;
@@ -183,6 +189,7 @@ namespace Tic_Tac_Toe_Game_Simulator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(355, 407);
             this.Controls.Add(this.lbl_countingTurns);
             this.Controls.Add(this.btn_Exit);
@@ -200,6 +207,7 @@ namespace Tic_Tac_Toe_Game_Simulator
             this.Controls.Add(this.btn1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Tic_Tac_Toe";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tic-Tac-Toe ";
             this.Load += new System.EventHandler(this.Tic_Tac_Toe_Load);
             this.ResumeLayout(false);
