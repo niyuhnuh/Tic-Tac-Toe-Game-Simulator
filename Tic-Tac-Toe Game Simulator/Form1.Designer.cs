@@ -54,6 +54,7 @@ namespace Tic_Tac_Toe_Game_Simulator
             this.btn_Exit.TabIndex = 25;
             this.btn_Exit.Text = "Exit";
             this.btn_Exit.UseVisualStyleBackColor = true;
+            this.btn_Exit.Click += new System.EventHandler(this.btn_Exit_Click);
             // 
             // btn_Reset
             // 
@@ -70,7 +71,7 @@ namespace Tic_Tac_Toe_Game_Simulator
             // 
             this.lbl_Status.AutoSize = true;
             this.lbl_Status.Font = new System.Drawing.Font("Courier New", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbl_Status.Location = new System.Drawing.Point(87, 324);
+            this.lbl_Status.Location = new System.Drawing.Point(92, 324);
             this.lbl_Status.Name = "lbl_Status";
             this.lbl_Status.Size = new System.Drawing.Size(129, 36);
             this.lbl_Status.TabIndex = 23;
@@ -81,7 +82,7 @@ namespace Tic_Tac_Toe_Game_Simulator
             // 
             this.lbl_Turn.AutoSize = true;
             this.lbl_Turn.Font = new System.Drawing.Font("Courier New", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbl_Turn.Location = new System.Drawing.Point(87, 24);
+            this.lbl_Turn.Location = new System.Drawing.Point(85, 24);
             this.lbl_Turn.Name = "lbl_Turn";
             this.lbl_Turn.Size = new System.Drawing.Size(167, 36);
             this.lbl_Turn.TabIndex = 22;
