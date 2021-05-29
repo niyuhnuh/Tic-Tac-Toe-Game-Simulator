@@ -76,11 +76,11 @@ namespace Tic_Tac_Toe_Game_Simulator
             this.lbl_Status.AutoSize = true;
             this.lbl_Status.Font = new System.Drawing.Font("Courier New", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lbl_Status.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lbl_Status.Location = new System.Drawing.Point(92, 324);
+            this.lbl_Status.Location = new System.Drawing.Point(85, 315);
             this.lbl_Status.Name = "lbl_Status";
-            this.lbl_Status.Size = new System.Drawing.Size(129, 36);
+            this.lbl_Status.Size = new System.Drawing.Size(167, 36);
             this.lbl_Status.TabIndex = 23;
-            this.lbl_Status.Text = "Status";
+            this.lbl_Status.Text = "X\'s Turn";
             this.lbl_Status.Visible = false;
             // 
             // lbl_Turn
@@ -88,7 +88,7 @@ namespace Tic_Tac_Toe_Game_Simulator
             this.lbl_Turn.AutoSize = true;
             this.lbl_Turn.Font = new System.Drawing.Font("Courier New", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lbl_Turn.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lbl_Turn.Location = new System.Drawing.Point(85, 24);
+            this.lbl_Turn.Location = new System.Drawing.Point(85, 18);
             this.lbl_Turn.Name = "lbl_Turn";
             this.lbl_Turn.Size = new System.Drawing.Size(167, 36);
             this.lbl_Turn.TabIndex = 22;
@@ -97,7 +97,7 @@ namespace Tic_Tac_Toe_Game_Simulator
             // btn9
             // 
             this.btn9.Font = new System.Drawing.Font("Courier New", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn9.Location = new System.Drawing.Point(221, 243);
+            this.btn9.Location = new System.Drawing.Point(221, 235);
             this.btn9.Name = "btn9";
             this.btn9.Size = new System.Drawing.Size(81, 69);
             this.btn9.TabIndex = 21;
@@ -107,7 +107,7 @@ namespace Tic_Tac_Toe_Game_Simulator
             // btn8
             // 
             this.btn8.Font = new System.Drawing.Font("Courier New", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn8.Location = new System.Drawing.Point(134, 243);
+            this.btn8.Location = new System.Drawing.Point(134, 235);
             this.btn8.Name = "btn8";
             this.btn8.Size = new System.Drawing.Size(81, 69);
             this.btn8.TabIndex = 20;
@@ -117,7 +117,7 @@ namespace Tic_Tac_Toe_Game_Simulator
             // btn7
             // 
             this.btn7.Font = new System.Drawing.Font("Courier New", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn7.Location = new System.Drawing.Point(47, 243);
+            this.btn7.Location = new System.Drawing.Point(47, 235);
             this.btn7.Name = "btn7";
             this.btn7.Size = new System.Drawing.Size(81, 69);
             this.btn7.TabIndex = 19;
@@ -127,7 +127,7 @@ namespace Tic_Tac_Toe_Game_Simulator
             // btn6
             // 
             this.btn6.Font = new System.Drawing.Font("Courier New", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn6.Location = new System.Drawing.Point(221, 159);
+            this.btn6.Location = new System.Drawing.Point(221, 151);
             this.btn6.Name = "btn6";
             this.btn6.Size = new System.Drawing.Size(81, 69);
             this.btn6.TabIndex = 18;
@@ -137,7 +137,7 @@ namespace Tic_Tac_Toe_Game_Simulator
             // btn5
             // 
             this.btn5.Font = new System.Drawing.Font("Courier New", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn5.Location = new System.Drawing.Point(134, 159);
+            this.btn5.Location = new System.Drawing.Point(134, 151);
             this.btn5.Name = "btn5";
             this.btn5.Size = new System.Drawing.Size(81, 69);
             this.btn5.TabIndex = 17;
@@ -147,7 +147,7 @@ namespace Tic_Tac_Toe_Game_Simulator
             // btn4
             // 
             this.btn4.Font = new System.Drawing.Font("Courier New", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn4.Location = new System.Drawing.Point(47, 159);
+            this.btn4.Location = new System.Drawing.Point(47, 151);
             this.btn4.Name = "btn4";
             this.btn4.Size = new System.Drawing.Size(81, 69);
             this.btn4.TabIndex = 16;
@@ -157,7 +157,7 @@ namespace Tic_Tac_Toe_Game_Simulator
             // btn3
             // 
             this.btn3.Font = new System.Drawing.Font("Courier New", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn3.Location = new System.Drawing.Point(221, 74);
+            this.btn3.Location = new System.Drawing.Point(221, 66);
             this.btn3.Name = "btn3";
             this.btn3.Size = new System.Drawing.Size(81, 69);
             this.btn3.TabIndex = 15;
@@ -167,7 +167,7 @@ namespace Tic_Tac_Toe_Game_Simulator
             // btn2
             // 
             this.btn2.Font = new System.Drawing.Font("Courier New", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn2.Location = new System.Drawing.Point(134, 74);
+            this.btn2.Location = new System.Drawing.Point(134, 66);
             this.btn2.Name = "btn2";
             this.btn2.Size = new System.Drawing.Size(81, 69);
             this.btn2.TabIndex = 14;
@@ -177,7 +177,7 @@ namespace Tic_Tac_Toe_Game_Simulator
             // btn1
             // 
             this.btn1.Font = new System.Drawing.Font("Courier New", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn1.Location = new System.Drawing.Point(47, 74);
+            this.btn1.Location = new System.Drawing.Point(47, 66);
             this.btn1.Name = "btn1";
             this.btn1.Size = new System.Drawing.Size(81, 69);
             this.btn1.TabIndex = 13;
