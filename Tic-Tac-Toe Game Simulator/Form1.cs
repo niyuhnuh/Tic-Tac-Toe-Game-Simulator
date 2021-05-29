@@ -485,9 +485,30 @@ namespace Tic_Tac_Toe_Game_Simulator
             btn8.Enabled = true;
             btn9.Enabled = true;
 
+            btn1.Text = "";
+            btn2.Text = "";
+            btn3.Text = "";
+            btn4.Text = "";
+            btn5.Text = "";
+            btn6.Text = "";
+            btn7.Text = "";
+            btn8.Text = "";
+            btn9.Text = "";
+
+            btn1.BackColor = SystemColors.Control;
+            btn2.BackColor = SystemColors.Control;
+            btn3.BackColor = SystemColors.Control;
+            btn4.BackColor = SystemColors.Control;
+            btn5.BackColor = SystemColors.Control;
+            btn6.BackColor = SystemColors.Control;
+            btn7.BackColor = SystemColors.Control;
+            btn8.BackColor = SystemColors.Control;
+            btn9.BackColor = SystemColors.Control;
+
             turn = true;
             countingTurns = 0;
             lbl_Status.Visible = false;
+            lbl_Turn.Text = "X's Turn";
         }
     }
 }
