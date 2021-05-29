@@ -18,13 +18,13 @@ namespace Tic_Tac_Toe_Game_Simulator
         }
 
         bool turn = true;
-      
+        int countingTurns = 0;
 
         private void winner()
         {
             //Horizontal Wins 
 
-            if ((btn1.Text == btn2.Text) && (btn1.Text == btn3.Text))
+           if ((btn1.Text == btn2.Text) && (btn1.Text == btn3.Text))
             {
                 lbl_Status.Visible = true;
                 lbl_Status.Text = "Game Over!";
@@ -64,7 +64,9 @@ namespace Tic_Tac_Toe_Game_Simulator
                 turn = false;
                 lbl_Turn.Text = "O's Turn";
                 btn1.Enabled = false;
-                winner();
+                countingTurns++;
+                lbl_countingTurns.Text = Convert.ToString(countingTurns);
+                //winner();
             }
             
             else
@@ -73,7 +75,9 @@ namespace Tic_Tac_Toe_Game_Simulator
                 turn = true;
                 lbl_Turn.Text = "X's Turn";
                 btn1.Enabled = false;
-                winner();
+                countingTurns++;
+                lbl_countingTurns.Text = Convert.ToString(countingTurns);
+                //winner();
             }
         }
 
@@ -85,7 +89,10 @@ namespace Tic_Tac_Toe_Game_Simulator
                 turn = false;
                 lbl_Turn.Text = "O's Turn";
                 btn2.Enabled = false;
-                winner();
+                countingTurns++;
+                lbl_countingTurns.Text = Convert.ToString(countingTurns);
+
+                //winner();
             }
 
             else
@@ -94,7 +101,10 @@ namespace Tic_Tac_Toe_Game_Simulator
                 turn = true;
                 lbl_Turn.Text = "X's Turn";
                 btn2.Enabled = false;
-                winner();
+                countingTurns++;
+                lbl_countingTurns.Text = Convert.ToString(countingTurns);
+
+                //winner();
             }
         }
 
@@ -106,7 +116,10 @@ namespace Tic_Tac_Toe_Game_Simulator
                 turn = false;
                 lbl_Turn.Text = "O's Turn";
                 btn3.Enabled = false;
-                winner();
+                countingTurns++;
+                lbl_countingTurns.Text = Convert.ToString(countingTurns);
+
+                //winner();
             }
 
             else
@@ -115,7 +128,10 @@ namespace Tic_Tac_Toe_Game_Simulator
                 turn = true;
                 lbl_Turn.Text = "X's Turn";
                 btn3.Enabled = false;
-                winner();
+                countingTurns++;
+                lbl_countingTurns.Text = Convert.ToString(countingTurns);
+
+                //winner();
             }
         }
 
@@ -127,7 +143,10 @@ namespace Tic_Tac_Toe_Game_Simulator
                 turn = false;
                 lbl_Turn.Text = "O's Turn";
                 btn4.Enabled = false;
-                winner();
+                countingTurns++;
+                lbl_countingTurns.Text = Convert.ToString(countingTurns);
+
+                //winner();
             }
 
             else
@@ -136,7 +155,10 @@ namespace Tic_Tac_Toe_Game_Simulator
                 turn = true;
                 lbl_Turn.Text = "X's Turn";
                 btn4.Enabled = false;
-                winner();
+                countingTurns++;
+                lbl_countingTurns.Text = Convert.ToString(countingTurns);
+
+                //winner();
             }
         }
 
@@ -148,7 +170,10 @@ namespace Tic_Tac_Toe_Game_Simulator
                 turn = false;
                 lbl_Turn.Text = "O's Turn";
                 btn5.Enabled = false;
-                winner();
+                countingTurns++;
+                lbl_countingTurns.Text = Convert.ToString(countingTurns);
+
+                //winner();
             }
 
             else
@@ -157,7 +182,10 @@ namespace Tic_Tac_Toe_Game_Simulator
                 turn = true;
                 lbl_Turn.Text = "X's Turn";
                 btn5.Enabled = false;
-                winner();
+                countingTurns++;
+                lbl_countingTurns.Text = Convert.ToString(countingTurns);
+
+                //winner();
             }
         }
 
@@ -169,7 +197,10 @@ namespace Tic_Tac_Toe_Game_Simulator
                 turn = false;
                 lbl_Turn.Text = "O's Turn";
                 btn6.Enabled = false;
-                winner();
+                countingTurns++;
+                lbl_countingTurns.Text = Convert.ToString(countingTurns);
+
+                //winner();
             }
 
             else
@@ -178,7 +209,10 @@ namespace Tic_Tac_Toe_Game_Simulator
                 turn = true;
                 lbl_Turn.Text = "X's Turn";
                 btn6.Enabled = false;
-                winner();
+                countingTurns++;
+                lbl_countingTurns.Text = Convert.ToString(countingTurns);
+
+                //winner();
             }
         }
 
@@ -190,7 +224,10 @@ namespace Tic_Tac_Toe_Game_Simulator
                 turn = false;
                 lbl_Turn.Text = "O's Turn";
                 btn7.Enabled = false;
-                winner();
+                countingTurns++;
+                lbl_countingTurns.Text = Convert.ToString(countingTurns);
+
+                //winner();
             }
 
             else
@@ -199,7 +236,10 @@ namespace Tic_Tac_Toe_Game_Simulator
                 turn = true;
                 lbl_Turn.Text = "X's Turn";
                 btn7.Enabled = false;
-                winner();
+                countingTurns++;
+                lbl_countingTurns.Text = Convert.ToString(countingTurns);
+
+                //winner();
             }
         }
 
@@ -211,7 +251,10 @@ namespace Tic_Tac_Toe_Game_Simulator
                 turn = false;
                 lbl_Turn.Text = "O's Turn";
                 btn8.Enabled = false;
-                winner();
+                countingTurns++;
+                lbl_countingTurns.Text = Convert.ToString(countingTurns);
+
+                //winner();
             }
 
             else
@@ -220,7 +263,10 @@ namespace Tic_Tac_Toe_Game_Simulator
                 turn = true;
                 lbl_Turn.Text = "X's Turn";
                 btn8.Enabled = false;
-                winner();
+                countingTurns++;
+                lbl_countingTurns.Text = Convert.ToString(countingTurns);
+
+                //winner();
             }
         }
 
@@ -232,7 +278,10 @@ namespace Tic_Tac_Toe_Game_Simulator
                 turn = false;
                 lbl_Turn.Text = "O's Turn";
                 btn9.Enabled = false;
-                winner();
+                countingTurns++;
+                lbl_countingTurns.Text = Convert.ToString(countingTurns);
+
+                //winner();
             }
 
             else
@@ -241,7 +290,10 @@ namespace Tic_Tac_Toe_Game_Simulator
                 turn = true;
                 lbl_Turn.Text = "X's Turn";
                 btn9.Enabled = false;
-                winner();
+                countingTurns++;
+                lbl_countingTurns.Text = Convert.ToString(countingTurns);
+
+                //winner();
             }
         }
     }

@@ -42,6 +42,7 @@ namespace Tic_Tac_Toe_Game_Simulator
             this.btn3 = new System.Windows.Forms.Button();
             this.btn2 = new System.Windows.Forms.Button();
             this.btn1 = new System.Windows.Forms.Button();
+            this.lbl_countingTurns = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btn_Exit
@@ -166,11 +167,21 @@ namespace Tic_Tac_Toe_Game_Simulator
             this.btn1.UseVisualStyleBackColor = true;
             this.btn1.Click += new System.EventHandler(this.btn1_Click);
             // 
+            // lbl_countingTurns
+            // 
+            this.lbl_countingTurns.AutoSize = true;
+            this.lbl_countingTurns.Location = new System.Drawing.Point(33, 327);
+            this.lbl_countingTurns.Name = "lbl_countingTurns";
+            this.lbl_countingTurns.Size = new System.Drawing.Size(38, 15);
+            this.lbl_countingTurns.TabIndex = 26;
+            this.lbl_countingTurns.Text = "label1";
+            // 
             // Tic_Tac_Toe
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(355, 407);
+            this.Controls.Add(this.lbl_countingTurns);
             this.Controls.Add(this.btn_Exit);
             this.Controls.Add(this.btn_Reset);
             this.Controls.Add(this.lbl_Status);
@@ -206,6 +217,7 @@ namespace Tic_Tac_Toe_Game_Simulator
         private System.Windows.Forms.Button btn3;
         private System.Windows.Forms.Button btn2;
         private System.Windows.Forms.Button btn1;
+        private System.Windows.Forms.Label lbl_countingTurns;
     }
 }
 
