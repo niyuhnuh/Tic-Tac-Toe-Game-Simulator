@@ -93,7 +93,7 @@ namespace Tic_Tac_Toe_Game_Simulator
             this.btn9.Size = new System.Drawing.Size(81, 69);
             this.btn9.TabIndex = 21;
             this.btn9.UseVisualStyleBackColor = true;
-            this.btn9.Click += new System.EventHandler(this.button_Click);
+            this.btn9.Click += new System.EventHandler(this.btn9_Click);
             // 
             // btn8
             // 
@@ -102,7 +102,7 @@ namespace Tic_Tac_Toe_Game_Simulator
             this.btn8.Size = new System.Drawing.Size(81, 69);
             this.btn8.TabIndex = 20;
             this.btn8.UseVisualStyleBackColor = true;
-            this.btn8.Click += new System.EventHandler(this.button_Click);
+            this.btn8.Click += new System.EventHandler(this.btn8_Click);
             // 
             // btn7
             // 
@@ -111,7 +111,7 @@ namespace Tic_Tac_Toe_Game_Simulator
             this.btn7.Size = new System.Drawing.Size(81, 69);
             this.btn7.TabIndex = 19;
             this.btn7.UseVisualStyleBackColor = true;
-            this.btn7.Click += new System.EventHandler(this.button_Click);
+            this.btn7.Click += new System.EventHandler(this.btn7_Click);
             // 
             // btn6
             // 
@@ -120,7 +120,7 @@ namespace Tic_Tac_Toe_Game_Simulator
             this.btn6.Size = new System.Drawing.Size(81, 69);
             this.btn6.TabIndex = 18;
             this.btn6.UseVisualStyleBackColor = true;
-            this.btn6.Click += new System.EventHandler(this.button_Click);
+            this.btn6.Click += new System.EventHandler(this.btn6_Click);
             // 
             // btn5
             // 
@@ -129,7 +129,7 @@ namespace Tic_Tac_Toe_Game_Simulator
             this.btn5.Size = new System.Drawing.Size(81, 69);
             this.btn5.TabIndex = 17;
             this.btn5.UseVisualStyleBackColor = true;
-            this.btn5.Click += new System.EventHandler(this.button_Click);
+            this.btn5.Click += new System.EventHandler(this.btn5_Click);
             // 
             // btn4
             // 
@@ -138,7 +138,7 @@ namespace Tic_Tac_Toe_Game_Simulator
             this.btn4.Size = new System.Drawing.Size(81, 69);
             this.btn4.TabIndex = 16;
             this.btn4.UseVisualStyleBackColor = true;
-            this.btn4.Click += new System.EventHandler(this.button_Click);
+            this.btn4.Click += new System.EventHandler(this.btn4_Click);
             // 
             // btn3
             // 
@@ -147,7 +147,7 @@ namespace Tic_Tac_Toe_Game_Simulator
             this.btn3.Size = new System.Drawing.Size(81, 69);
             this.btn3.TabIndex = 15;
             this.btn3.UseVisualStyleBackColor = true;
-            this.btn3.Click += new System.EventHandler(this.button_Click);
+            this.btn3.Click += new System.EventHandler(this.btn3_Click);
             // 
             // btn2
             // 

@@ -41,24 +41,6 @@ namespace Tic_Tac_Toe_Game_Simulator
             }
         }
 
-        private void button_Click(object sender, EventArgs e)
-        {
-            Button button = new Button();
-            
-            for (turn = 1; turn <= 9; turn++)
-            {
-                if (turn_count % 2 == 0)
-                {
-                    button.Text = player_O.ToString();
-                }
-
-                else 
-                {
-                    button.Text = player_X.ToString();
-                }
-            }
-        }
-
         private void btn1_Click(object sender, EventArgs e)
         {
             if (turn == true)
@@ -85,6 +67,111 @@ namespace Tic_Tac_Toe_Game_Simulator
             else
             {
                 btn2.Text = "O";
+                turn = true;
+            }
+        }
+
+        private void btn3_Click(object sender, EventArgs e)
+        {
+            if (turn == true)
+            {
+                btn3.Text = "X";
+                turn = false;
+            }
+
+            else
+            {
+                btn3.Text = "O";
+                turn = true;
+            }
+        }
+
+        private void btn4_Click(object sender, EventArgs e)
+        {
+            if (turn == true)
+            {
+                btn4.Text = "X";
+                turn = false;
+            }
+
+            else
+            {
+                btn4.Text = "O";
+                turn = true;
+            }
+        }
+
+        private void btn5_Click(object sender, EventArgs e)
+        {
+            if (turn == true)
+            {
+                btn5.Text = "X";
+                turn = false;
+            }
+
+            else
+            {
+                btn5.Text = "O";
+                turn = true;
+            }
+        }
+
+        private void btn6_Click(object sender, EventArgs e)
+        {
+            if (turn == true)
+            {
+                btn6.Text = "X";
+                turn = false;
+            }
+
+            else
+            {
+                btn6.Text = "O";
+                turn = true;
+            }
+        }
+
+        private void btn7_Click(object sender, EventArgs e)
+        {
+            if (turn == true)
+            {
+                btn7.Text = "X";
+                turn = false;
+            }
+
+            else
+            {
+                btn7.Text = "O";
+                turn = true;
+            }
+        }
+
+        private void btn8_Click(object sender, EventArgs e)
+        {
+            if (turn == true)
+            {
+                btn8.Text = "X";
+                turn = false;
+            }
+
+            else
+            {
+                btn8.Text = "O";
+                turn = true;
+            }
+        }
+
+        private void btn9_Click(object sender, EventArgs e)
+        {
+            if (turn == true)
+            {
+                btn9.Text = "X";
+                turn = false;
+            }
+
+            else
+            {
+                btn9.Text = "O";
                 turn = true;
             }
         }
