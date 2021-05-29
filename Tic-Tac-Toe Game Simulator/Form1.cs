@@ -76,15 +76,15 @@ namespace Tic_Tac_Toe_Game_Simulator
 
             //Diagonal Wins
 
-            if ((btn1.Text == btn5.Text) && (btn1.Text == btn9.Text) && (countingTurns >= 5))
+            if ((btn1.Text == btn5.Text) && (btn5.Text == btn9.Text) && (countingTurns >= 5))
             {
                 lbl_Status.Visible = true;
                 lbl_Status.Text = "Game Over!";
-                string player = btn3.Text;
+                string player = btn1.Text;
                 lbl_Turn.Text = player + " is a Winner";
             }
 
-            if ((btn3.Text == btn5.Text) && (btn3.Text == btn7.Text) && (countingTurns >= 5))
+            if ((btn3.Text == btn5.Text) && (btn5.Text == btn7.Text) && (countingTurns >= 5))
             {
                 lbl_Status.Visible = true;
                 lbl_Status.Text = "Game Over!";
