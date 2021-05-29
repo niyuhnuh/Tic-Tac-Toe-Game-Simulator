@@ -18,8 +18,6 @@ namespace Tic_Tac_Toe_Game_Simulator
         }
 
         bool turn = true;
-        string player_X = "X";
-        string player_O = "O";
         int turn_count = 1;
 
         private void lbl_Turn_Click(object sender, EventArgs e)
@@ -30,14 +28,14 @@ namespace Tic_Tac_Toe_Game_Simulator
         private void Tic_Tac_Toe_Load(object sender, EventArgs e)
         { 
             
-            if (turn_count % 2 == 0)
+            if (turn == true)
             {
-                lbl_Turn.Text = "O's Turn";
+                lbl_Turn.Text = "X's Turn";
             }
 
             else 
             {
-                lbl_Turn.Text = "X's Turn";
+                lbl_Turn.Text = "O's Turn";
             }
         }
 
@@ -47,14 +45,14 @@ namespace Tic_Tac_Toe_Game_Simulator
             {
                 btn1.Text = "X";
                 turn = false;
-                turn_count++;
+                lbl_Turn.Text = "O's Turn";
             }
             
             else
             {
                 btn1.Text = "O";
                 turn = true;
-                turn_count++;
+                lbl_Turn.Text = "X's Turn";
             }
         }
 
@@ -64,14 +62,14 @@ namespace Tic_Tac_Toe_Game_Simulator
             {
                 btn2.Text = "X";
                 turn = false;
-                turn_count++;
+                lbl_Turn.Text = "O's Turn";
             }
 
             else
             {
                 btn2.Text = "O";
                 turn = true;
-                turn_count++;
+                lbl_Turn.Text = "X's Turn";
             }
         }
 
@@ -81,14 +79,14 @@ namespace Tic_Tac_Toe_Game_Simulator
             {
                 btn3.Text = "X";
                 turn = false;
-                turn_count++;
+                lbl_Turn.Text = "O's Turn";
             }
 
             else
             {
                 btn3.Text = "O";
                 turn = true;
-                turn_count++;
+                lbl_Turn.Text = "X's Turn";
             }
         }
 
@@ -98,14 +96,14 @@ namespace Tic_Tac_Toe_Game_Simulator
             {
                 btn4.Text = "X";
                 turn = false;
-                turn_count++;
+                lbl_Turn.Text = "O's Turn";
             }
 
             else
             {
                 btn4.Text = "O";
                 turn = true;
-                turn_count++;
+                lbl_Turn.Text = "X's Turn";
             }
         }
 
@@ -115,14 +113,14 @@ namespace Tic_Tac_Toe_Game_Simulator
             {
                 btn5.Text = "X";
                 turn = false;
-                turn_count++;
+                lbl_Turn.Text = "O's Turn";
             }
 
             else
             {
                 btn5.Text = "O";
                 turn = true;
-                turn_count++;
+                lbl_Turn.Text = "X's Turn";
             }
         }
 
@@ -132,14 +130,14 @@ namespace Tic_Tac_Toe_Game_Simulator
             {
                 btn6.Text = "X";
                 turn = false;
-                turn_count++;
+                lbl_Turn.Text = "O's Turn";
             }
 
             else
             {
                 btn6.Text = "O";
                 turn = true;
-                turn_count++;
+                lbl_Turn.Text = "X's Turn";
             }
         }
 
@@ -149,14 +147,14 @@ namespace Tic_Tac_Toe_Game_Simulator
             {
                 btn7.Text = "X";
                 turn = false;
-                turn_count++;
+                lbl_Turn.Text = "O's Turn";
             }
 
             else
             {
                 btn7.Text = "O";
                 turn = true;
-                turn_count++;
+                lbl_Turn.Text = "X's Turn";
             }
         }
 
@@ -166,14 +164,14 @@ namespace Tic_Tac_Toe_Game_Simulator
             {
                 btn8.Text = "X";
                 turn = false;
-                turn_count++;
+                lbl_Turn.Text = "O's Turn";
             }
 
             else
             {
                 btn8.Text = "O";
                 turn = true;
-                turn_count++;
+                lbl_Turn.Text = "X's Turn";
             }
         }
 
@@ -183,14 +181,14 @@ namespace Tic_Tac_Toe_Game_Simulator
             {
                 btn9.Text = "X";
                 turn = false;
-                turn_count++;
+                lbl_Turn.Text = "O's Turn";
             }
 
             else
             {
                 btn9.Text = "O";
                 turn = true;
-                turn_count++;
+                lbl_Turn.Text = "X's Turn";
             }
         }
     }
