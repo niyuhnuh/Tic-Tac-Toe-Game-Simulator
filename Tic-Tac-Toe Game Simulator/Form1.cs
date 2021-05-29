@@ -22,13 +22,27 @@ namespace Tic_Tac_Toe_Game_Simulator
 
         private void winner()
         {
-            //Horizontal Wins for X 
+            //Horizontal Wins 
 
             if ((btn1.Text == btn2.Text) && (btn1.Text == btn3.Text))
             {
                 lbl_Status.Visible = true;
                 lbl_Status.Text = "Game Over!";
-                lbl_Turn.Text = "X is a Winner!";
+                lbl_Turn.Text = "";
+            }
+
+            if ((btn4.Text == btn5.Text) && (btn4.Text == btn6.Text))
+            {
+                lbl_Status.Visible = true;
+                lbl_Status.Text = "Game Over!";
+                lbl_Turn.Text = "";
+            }
+
+            if ((btn7.Text == btn8.Text) && (btn7.Text == btn9.Text))
+            {
+                lbl_Status.Visible = true;
+                lbl_Status.Text = "Game Over!";
+                lbl_Turn.Text = "";
             }
         }
 
