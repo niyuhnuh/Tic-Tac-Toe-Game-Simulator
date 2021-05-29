@@ -84,7 +84,6 @@ namespace Tic_Tac_Toe_Game_Simulator
             this.lbl_Turn.Size = new System.Drawing.Size(148, 36);
             this.lbl_Turn.TabIndex = 22;
             this.lbl_Turn.Text = "\'s Turn";
-            this.lbl_Turn.Click += new System.EventHandler(this.lbl_Turn_Click);
             // 
             // btn9
             // 
