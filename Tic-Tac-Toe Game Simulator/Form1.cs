@@ -173,20 +173,52 @@ namespace Tic_Tac_Toe_Game_Simulator
 
             //Diagonal Wins
 
-            //if ((btn1.Text == btn5.Text) && (btn5.Text == btn9.Text) && (btn9.Text == btn1.Text) && (countingTurns >= 5))
+            if ((btn1.Text == btn5.Text) && (btn5.Text == btn9.Text) && (btn9.Text == btn1.Text) && (countingTurns >= 5))
             {
-               // lbl_Status.Visible = true;
-               // lbl_Status.Text = "Game Over!";
-               // string player = btn1.Text;
-               // lbl_Turn.Text = player + " is a Winner";
+                lbl_Status.Visible = true;
+                lbl_Status.Text = "Game Over!";
+                lbl_Turn.Text = "Game Over!";
+
+                btn1.Enabled = true;
+                btn1.BackColor = Color.PaleGreen;
+                btn5.Enabled = true;
+                btn5.BackColor = Color.PaleGreen;
+                btn9.Enabled = true;
+                btn9.BackColor = Color.PaleGreen;
+
+                if (btn2.Enabled != false || btn3.Enabled != false || btn6.Enabled != false || btn4.Enabled != false || btn7.Enabled != false || btn8.Enabled != false)
+                {
+                    btn3.Enabled = false;
+                    btn2.Enabled = false;
+                    btn4.Enabled = false;
+                    btn6.Enabled = false;
+                    btn7.Enabled = false;
+                    btn8.Enabled = false;
+                }
             }
 
-            //if ((btn3.Text == btn5.Text) && (btn5.Text == btn7.Text) && (btn7.Text == btn3.Text) && (countingTurns >= 5))
+            if ((btn3.Text == btn5.Text) && (btn5.Text == btn7.Text) && (btn7.Text == btn3.Text) && (countingTurns >= 5))
             {
-               // lbl_Status.Visible = true;
-               // lbl_Status.Text = "Game Over!";
-               // string player = btn3.Text;
-                //lbl_Turn.Text = player + " is a Winner";
+                lbl_Status.Visible = true;
+                lbl_Status.Text = "Game Over!";
+                lbl_Turn.Text = "Game Over!";
+
+                btn3.Enabled = true;
+                btn3.BackColor = Color.PaleGreen;
+                btn5.Enabled = true;
+                btn5.BackColor = Color.PaleGreen;
+                btn7.Enabled = true;
+                btn7.BackColor = Color.PaleGreen;
+
+                if (btn2.Enabled != false || btn1.Enabled != false || btn6.Enabled != false || btn4.Enabled != false || btn9.Enabled != false || btn8.Enabled != false)
+                {
+                    btn1.Enabled = false;
+                    btn2.Enabled = false;
+                    btn4.Enabled = false;
+                    btn6.Enabled = false;
+                    btn9.Enabled = false;
+                    btn8.Enabled = false;
+                }
             }
 
 
