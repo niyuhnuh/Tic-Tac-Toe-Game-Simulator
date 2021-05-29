@@ -36,7 +36,17 @@ namespace Tic_Tac_Toe_Game_Simulator
                 btn2.BackColor = Color.PaleGreen;
                 btn3.Enabled = true;
                 btn3.BackColor = Color.PaleGreen;
-            }
+                
+                if (btn4.Enabled != false || btn5.Enabled != false || btn6.Enabled != false || btn7.Enabled != false || btn8.Enabled != false || btn9.Enabled != false)
+                {
+                    btn4.Enabled = false;
+                    btn5.Enabled = false;
+                    btn6.Enabled = false;
+                    btn7.Enabled = false;
+                    btn8.Enabled = false;
+                    btn9.Enabled = false;
+                }
+           }
 
             if ((btn4.Text == btn5.Text) && (btn5.Text == btn6.Text) && (btn6.Text == btn4.Text) && (countingTurns >= 5))
             {
@@ -45,12 +55,22 @@ namespace Tic_Tac_Toe_Game_Simulator
                 lbl_Status.Text = "Game Over!";
                 lbl_Turn.Text = "Game Over!";
 
-                btn1.Enabled = true;
-                btn1.BackColor = Color.PaleGreen;
-                btn2.Enabled = true;
-                btn2.BackColor = Color.PaleGreen;
-                btn3.Enabled = true;
-                btn3.BackColor = Color.PaleGreen;
+                btn4.Enabled = true;
+                btn4.BackColor = Color.PaleGreen;
+                btn5.Enabled = true;
+                btn5.BackColor = Color.PaleGreen;
+                btn6.Enabled = true;
+                btn6.BackColor = Color.PaleGreen;
+
+                if (btn1.Enabled != false || btn2.Enabled != false || btn3.Enabled != false || btn7.Enabled != false || btn8.Enabled != false || btn9.Enabled != false)
+                {
+                    btn1.Enabled = false;
+                    btn2.Enabled = false;
+                    btn3.Enabled = false;
+                    btn7.Enabled = false;
+                    btn8.Enabled = false;
+                    btn9.Enabled = false;
+                }
             }
 
            // if ((btn7.Text == btn8.Text) && (btn8.Text == btn9.Text) && (btn9.Text == btn7.Text) && (countingTurns >= 5))
