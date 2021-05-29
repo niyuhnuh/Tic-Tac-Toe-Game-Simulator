@@ -198,6 +198,7 @@ namespace Tic_Tac_Toe_Game_Simulator
             this.Controls.Add(this.btn3);
             this.Controls.Add(this.btn2);
             this.Controls.Add(this.btn1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Tic_Tac_Toe";
             this.Text = "Tic-Tac-Toe ";
             this.Load += new System.EventHandler(this.Tic_Tac_Toe_Load);
