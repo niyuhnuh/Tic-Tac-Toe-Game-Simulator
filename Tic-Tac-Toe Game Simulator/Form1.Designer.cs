@@ -83,9 +83,9 @@ namespace Tic_Tac_Toe_Game_Simulator
             this.lbl_Turn.Font = new System.Drawing.Font("Courier New", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lbl_Turn.Location = new System.Drawing.Point(105, 24);
             this.lbl_Turn.Name = "lbl_Turn";
-            this.lbl_Turn.Size = new System.Drawing.Size(148, 36);
+            this.lbl_Turn.Size = new System.Drawing.Size(167, 36);
             this.lbl_Turn.TabIndex = 22;
-            this.lbl_Turn.Text = "\'s Turn";
+            this.lbl_Turn.Text = "X\'s Turn";
             // 
             // btn9
             // 
