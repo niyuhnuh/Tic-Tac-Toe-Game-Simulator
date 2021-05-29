@@ -47,12 +47,14 @@ namespace Tic_Tac_Toe_Game_Simulator
             {
                 btn1.Text = "X";
                 turn = false;
+                turn_count++;
             }
             
             else
             {
                 btn1.Text = "O";
                 turn = true;
+                turn_count++;
             }
         }
 
@@ -62,12 +64,14 @@ namespace Tic_Tac_Toe_Game_Simulator
             {
                 btn2.Text = "X";
                 turn = false;
+                turn_count++;
             }
 
             else
             {
                 btn2.Text = "O";
                 turn = true;
+                turn_count++;
             }
         }
 
@@ -77,12 +81,14 @@ namespace Tic_Tac_Toe_Game_Simulator
             {
                 btn3.Text = "X";
                 turn = false;
+                turn_count++;
             }
 
             else
             {
                 btn3.Text = "O";
                 turn = true;
+                turn_count++;
             }
         }
 
@@ -92,12 +98,14 @@ namespace Tic_Tac_Toe_Game_Simulator
             {
                 btn4.Text = "X";
                 turn = false;
+                turn_count++;
             }
 
             else
             {
                 btn4.Text = "O";
                 turn = true;
+                turn_count++;
             }
         }
 
@@ -107,12 +115,14 @@ namespace Tic_Tac_Toe_Game_Simulator
             {
                 btn5.Text = "X";
                 turn = false;
+                turn_count++;
             }
 
             else
             {
                 btn5.Text = "O";
                 turn = true;
+                turn_count++;
             }
         }
 
@@ -122,12 +132,14 @@ namespace Tic_Tac_Toe_Game_Simulator
             {
                 btn6.Text = "X";
                 turn = false;
+                turn_count++;
             }
 
             else
             {
                 btn6.Text = "O";
                 turn = true;
+                turn_count++;
             }
         }
 
@@ -137,12 +149,14 @@ namespace Tic_Tac_Toe_Game_Simulator
             {
                 btn7.Text = "X";
                 turn = false;
+                turn_count++;
             }
 
             else
             {
                 btn7.Text = "O";
                 turn = true;
+                turn_count++;
             }
         }
 
@@ -152,12 +166,14 @@ namespace Tic_Tac_Toe_Game_Simulator
             {
                 btn8.Text = "X";
                 turn = false;
+                turn_count++;
             }
 
             else
             {
                 btn8.Text = "O";
                 turn = true;
+                turn_count++;
             }
         }
 
@@ -167,12 +183,14 @@ namespace Tic_Tac_Toe_Game_Simulator
             {
                 btn9.Text = "X";
                 turn = false;
+                turn_count++;
             }
 
             else
             {
                 btn9.Text = "O";
                 turn = true;
+                turn_count++;
             }
         }
     }
