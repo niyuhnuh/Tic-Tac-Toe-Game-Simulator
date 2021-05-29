@@ -472,5 +472,22 @@ namespace Tic_Tac_Toe_Game_Simulator
                 checkWinner();
             }
         }
+
+        private void btn_Reset_Click(object sender, EventArgs e)
+        {
+            btn1.Enabled = true;
+            btn2.Enabled = true;
+            btn3.Enabled = true;
+            btn4.Enabled = true;
+            btn5.Enabled = true;
+            btn6.Enabled = true;
+            btn7.Enabled = true;
+            btn8.Enabled = true;
+            btn9.Enabled = true;
+
+            turn = true;
+            countingTurns = 0;
+            lbl_Status.Visible = false;
+        }
     }
 }

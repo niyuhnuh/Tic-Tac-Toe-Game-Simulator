@@ -64,6 +64,7 @@ namespace Tic_Tac_Toe_Game_Simulator
             this.btn_Reset.TabIndex = 24;
             this.btn_Reset.Text = "Reset";
             this.btn_Reset.UseVisualStyleBackColor = true;
+            this.btn_Reset.Click += new System.EventHandler(this.btn_Reset_Click);
             // 
             // lbl_Status
             // 
