@@ -31,8 +31,6 @@ namespace Tic_Tac_Toe_Game_Simulator
         {
             this.btn_Exit = new System.Windows.Forms.Button();
             this.btn_Reset = new System.Windows.Forms.Button();
-            this.lbl_Status = new System.Windows.Forms.Label();
-            this.lbl_Turn = new System.Windows.Forms.Label();
             this.btn9 = new System.Windows.Forms.Button();
             this.btn8 = new System.Windows.Forms.Button();
             this.btn7 = new System.Windows.Forms.Button();
@@ -72,29 +70,6 @@ namespace Tic_Tac_Toe_Game_Simulator
             this.btn_Reset.Text = "Reset";
             this.btn_Reset.UseVisualStyleBackColor = false;
             this.btn_Reset.Click += new System.EventHandler(this.btn_Reset_Click);
-            // 
-            // lbl_Status
-            // 
-            this.lbl_Status.AutoSize = true;
-            this.lbl_Status.Font = new System.Drawing.Font("Courier New", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbl_Status.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lbl_Status.Location = new System.Drawing.Point(85, 315);
-            this.lbl_Status.Name = "lbl_Status";
-            this.lbl_Status.Size = new System.Drawing.Size(167, 36);
-            this.lbl_Status.TabIndex = 23;
-            this.lbl_Status.Text = "X\'s Turn";
-            this.lbl_Status.Visible = false;
-            // 
-            // lbl_Turn
-            // 
-            this.lbl_Turn.AutoSize = true;
-            this.lbl_Turn.Font = new System.Drawing.Font("Courier New", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbl_Turn.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lbl_Turn.Location = new System.Drawing.Point(85, 18);
-            this.lbl_Turn.Name = "lbl_Turn";
-            this.lbl_Turn.Size = new System.Drawing.Size(167, 36);
-            this.lbl_Turn.TabIndex = 22;
-            this.lbl_Turn.Text = "X\'s Turn";
             // 
             // btn9
             // 
@@ -198,7 +173,7 @@ namespace Tic_Tac_Toe_Game_Simulator
             // 
             // txtbx_Turn
             // 
-            this.txtbx_Turn.Location = new System.Drawing.Point(121, 2);
+            this.txtbx_Turn.Location = new System.Drawing.Point(131, 37);
             this.txtbx_Turn.Name = "txtbx_Turn";
             this.txtbx_Turn.ReadOnly = true;
             this.txtbx_Turn.Size = new System.Drawing.Size(100, 23);
@@ -208,7 +183,7 @@ namespace Tic_Tac_Toe_Game_Simulator
             // 
             // txtbx_Status
             // 
-            this.txtbx_Status.Location = new System.Drawing.Point(121, 310);
+            this.txtbx_Status.Location = new System.Drawing.Point(131, 310);
             this.txtbx_Status.Name = "txtbx_Status";
             this.txtbx_Status.ReadOnly = true;
             this.txtbx_Status.Size = new System.Drawing.Size(100, 23);
@@ -228,8 +203,6 @@ namespace Tic_Tac_Toe_Game_Simulator
             this.Controls.Add(this.lbl_countingTurns);
             this.Controls.Add(this.btn_Exit);
             this.Controls.Add(this.btn_Reset);
-            this.Controls.Add(this.lbl_Status);
-            this.Controls.Add(this.lbl_Turn);
             this.Controls.Add(this.btn9);
             this.Controls.Add(this.btn8);
             this.Controls.Add(this.btn7);
@@ -251,8 +224,6 @@ namespace Tic_Tac_Toe_Game_Simulator
         #endregion
         private System.Windows.Forms.Button btn_Exit;
         private System.Windows.Forms.Button btn_Reset;
-        private System.Windows.Forms.Label lbl_Status;
-        private System.Windows.Forms.Label lbl_Turn;
         private System.Windows.Forms.Button btn9;
         private System.Windows.Forms.Button btn8;
         private System.Windows.Forms.Button btn7;
