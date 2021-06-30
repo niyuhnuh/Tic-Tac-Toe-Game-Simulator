@@ -499,8 +499,8 @@ namespace Tic_Tac_Toe_Game_Simulator
 
             turn = true;
             countingTurns = 0;
-            lbl_Status.Visible = false;
-            lbl_Turn.Text = "X's Turn";
+            txtbx_Status.Visible = false;
+            txtbx_Turn.Text = "X's Turn";
         }
 
         private void btn_Exit_Click(object sender, EventArgs e)
