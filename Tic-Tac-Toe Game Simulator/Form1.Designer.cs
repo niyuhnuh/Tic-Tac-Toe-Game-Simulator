@@ -173,20 +173,22 @@ namespace Tic_Tac_Toe_Game_Simulator
             // 
             // txtbx_Turn
             // 
-            this.txtbx_Turn.Location = new System.Drawing.Point(131, 37);
+            this.txtbx_Turn.Font = new System.Drawing.Font("Courier New", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txtbx_Turn.Location = new System.Drawing.Point(105, 25);
             this.txtbx_Turn.Name = "txtbx_Turn";
             this.txtbx_Turn.ReadOnly = true;
-            this.txtbx_Turn.Size = new System.Drawing.Size(100, 23);
+            this.txtbx_Turn.Size = new System.Drawing.Size(152, 35);
             this.txtbx_Turn.TabIndex = 27;
             this.txtbx_Turn.Text = "X\'s Turn";
             this.txtbx_Turn.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtbx_Status
             // 
-            this.txtbx_Status.Location = new System.Drawing.Point(131, 310);
+            this.txtbx_Status.Font = new System.Drawing.Font("Courier New", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txtbx_Status.Location = new System.Drawing.Point(105, 310);
             this.txtbx_Status.Name = "txtbx_Status";
             this.txtbx_Status.ReadOnly = true;
-            this.txtbx_Status.Size = new System.Drawing.Size(100, 23);
+            this.txtbx_Status.Size = new System.Drawing.Size(152, 35);
             this.txtbx_Status.TabIndex = 28;
             this.txtbx_Status.Text = "X\'s Turn";
             this.txtbx_Status.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
