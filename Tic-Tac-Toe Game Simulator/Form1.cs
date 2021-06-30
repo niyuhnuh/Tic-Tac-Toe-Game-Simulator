@@ -19,7 +19,9 @@ namespace Tic_Tac_Toe_Game_Simulator
 
         
         bool turn = true; //Assigning boolean variable for turns
-        int countingTurns = 0; //The actual turn count value
+        byte countingTurns = 0; //The actual turn count value
+        byte x_Score = 0;
+        byte o_Score = 0;
 
        
         private void checkWinner()
@@ -43,6 +45,15 @@ namespace Tic_Tac_Toe_Game_Simulator
                     btn7.Enabled = false;
                     btn8.Enabled = false;
                     btn9.Enabled = false;
+
+                    if (btn1.Text.Contains("X"))
+                    {
+                        x_Score++;
+                    }
+                    else
+                    {
+                        o_Score++;
+                    }
                 }
            }
 
@@ -64,6 +75,15 @@ namespace Tic_Tac_Toe_Game_Simulator
                     btn7.Enabled = false;
                     btn8.Enabled = false;
                     btn9.Enabled = false;
+
+                    if (btn1.Text.Contains("X"))
+                    {
+                        x_Score++;
+                    }
+                    else
+                    {
+                        o_Score++;
+                    }
                 }
             }
 
@@ -85,6 +105,15 @@ namespace Tic_Tac_Toe_Game_Simulator
                     btn4.Enabled = false;
                     btn5.Enabled = false;
                     btn6.Enabled = false;
+
+                    if (btn1.Text.Contains("X"))
+                    {
+                        x_Score++;
+                    }
+                    else
+                    {
+                        o_Score++;
+                    }
                 }
            }
 
@@ -108,6 +137,15 @@ namespace Tic_Tac_Toe_Game_Simulator
                     btn6.Enabled = false;
                     btn8.Enabled = false;
                     btn9.Enabled = false;
+
+                    if (btn1.Text.Contains("X"))
+                    {
+                        x_Score++;
+                    }
+                    else
+                    {
+                        o_Score++;
+                    }
                 }
             }
 
@@ -129,6 +167,15 @@ namespace Tic_Tac_Toe_Game_Simulator
                     btn6.Enabled = false;
                     btn7.Enabled = false;
                     btn9.Enabled = false;
+
+                    if (btn1.Text.Contains("X"))
+                    {
+                        x_Score++;
+                    }
+                    else
+                    {
+                        o_Score++;
+                    }
                 }
             }
 
@@ -150,6 +197,15 @@ namespace Tic_Tac_Toe_Game_Simulator
                     btn5.Enabled = false;
                     btn7.Enabled = false;
                     btn8.Enabled = false;
+
+                    if (btn1.Text.Contains("X"))
+                    {
+                        x_Score++;
+                    }
+                    else
+                    {
+                        o_Score++;
+                    }
                 }
            }
 
@@ -173,6 +229,15 @@ namespace Tic_Tac_Toe_Game_Simulator
                     btn6.Enabled = false;
                     btn7.Enabled = false;
                     btn8.Enabled = false;
+
+                    if (btn1.Text.Contains("X"))
+                    {
+                        x_Score++;
+                    }
+                    else
+                    {
+                        o_Score++;
+                    }
                 }
             }
 
@@ -194,6 +259,15 @@ namespace Tic_Tac_Toe_Game_Simulator
                     btn6.Enabled = false;
                     btn9.Enabled = false;
                     btn8.Enabled = false;
+
+                    if (btn1.Text.Contains("X"))
+                    {
+                        x_Score++;
+                    }
+                    else
+                    {
+                        o_Score++;
+                    }
                 }
             }
 
