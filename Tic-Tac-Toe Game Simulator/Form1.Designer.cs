@@ -43,6 +43,11 @@ namespace Tic_Tac_Toe_Game_Simulator
             this.lbl_countingTurns = new System.Windows.Forms.Label();
             this.txtbx_Turn = new System.Windows.Forms.TextBox();
             this.txtbx_Status = new System.Windows.Forms.TextBox();
+            this.lbl_Score = new System.Windows.Forms.Label();
+            this.lbl_X = new System.Windows.Forms.Label();
+            this.lbl_O = new System.Windows.Forms.Label();
+            this.lbl_Xscore = new System.Windows.Forms.Label();
+            this.lbl_Oscore = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btn_Exit
@@ -50,7 +55,7 @@ namespace Tic_Tac_Toe_Game_Simulator
             this.btn_Exit.BackColor = System.Drawing.Color.Black;
             this.btn_Exit.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btn_Exit.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btn_Exit.Location = new System.Drawing.Point(189, 386);
+            this.btn_Exit.Location = new System.Drawing.Point(12, 398);
             this.btn_Exit.Name = "btn_Exit";
             this.btn_Exit.Size = new System.Drawing.Size(154, 32);
             this.btn_Exit.TabIndex = 25;
@@ -63,7 +68,7 @@ namespace Tic_Tac_Toe_Game_Simulator
             this.btn_Reset.BackColor = System.Drawing.Color.Black;
             this.btn_Reset.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btn_Reset.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btn_Reset.Location = new System.Drawing.Point(12, 386);
+            this.btn_Reset.Location = new System.Drawing.Point(12, 360);
             this.btn_Reset.Name = "btn_Reset";
             this.btn_Reset.Size = new System.Drawing.Size(154, 32);
             this.btn_Reset.TabIndex = 24;
@@ -194,12 +199,72 @@ namespace Tic_Tac_Toe_Game_Simulator
             this.txtbx_Status.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtbx_Status.Visible = false;
             // 
+            // lbl_Score
+            // 
+            this.lbl_Score.AutoSize = true;
+            this.lbl_Score.Font = new System.Drawing.Font("Courier New", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbl_Score.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl_Score.Location = new System.Drawing.Point(222, 360);
+            this.lbl_Score.Name = "lbl_Score";
+            this.lbl_Score.Size = new System.Drawing.Size(96, 27);
+            this.lbl_Score.TabIndex = 29;
+            this.lbl_Score.Text = "Score:";
+            // 
+            // lbl_X
+            // 
+            this.lbl_X.AutoSize = true;
+            this.lbl_X.Font = new System.Drawing.Font("Courier New", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbl_X.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl_X.Location = new System.Drawing.Point(190, 398);
+            this.lbl_X.Name = "lbl_X";
+            this.lbl_X.Size = new System.Drawing.Size(54, 27);
+            this.lbl_X.TabIndex = 30;
+            this.lbl_X.Text = "X: ";
+            // 
+            // lbl_O
+            // 
+            this.lbl_O.AutoSize = true;
+            this.lbl_O.Font = new System.Drawing.Font("Courier New", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbl_O.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl_O.Location = new System.Drawing.Point(275, 398);
+            this.lbl_O.Name = "lbl_O";
+            this.lbl_O.Size = new System.Drawing.Size(54, 27);
+            this.lbl_O.TabIndex = 31;
+            this.lbl_O.Text = "O: ";
+            // 
+            // lbl_Xscore
+            // 
+            this.lbl_Xscore.AutoSize = true;
+            this.lbl_Xscore.Font = new System.Drawing.Font("Courier New", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbl_Xscore.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl_Xscore.Location = new System.Drawing.Point(227, 398);
+            this.lbl_Xscore.Name = "lbl_Xscore";
+            this.lbl_Xscore.Size = new System.Drawing.Size(26, 27);
+            this.lbl_Xscore.TabIndex = 32;
+            this.lbl_Xscore.Text = "0";
+            // 
+            // lbl_Oscore
+            // 
+            this.lbl_Oscore.AutoSize = true;
+            this.lbl_Oscore.Font = new System.Drawing.Font("Courier New", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbl_Oscore.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl_Oscore.Location = new System.Drawing.Point(303, 398);
+            this.lbl_Oscore.Name = "lbl_Oscore";
+            this.lbl_Oscore.Size = new System.Drawing.Size(26, 27);
+            this.lbl_Oscore.TabIndex = 33;
+            this.lbl_Oscore.Text = "0";
+            // 
             // Tic_Tac_Toe
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ClientSize = new System.Drawing.Size(355, 430);
+            this.ClientSize = new System.Drawing.Size(355, 451);
+            this.Controls.Add(this.lbl_Oscore);
+            this.Controls.Add(this.lbl_Xscore);
+            this.Controls.Add(this.lbl_O);
+            this.Controls.Add(this.lbl_X);
+            this.Controls.Add(this.lbl_Score);
             this.Controls.Add(this.txtbx_Status);
             this.Controls.Add(this.txtbx_Turn);
             this.Controls.Add(this.lbl_countingTurns);
@@ -238,6 +303,11 @@ namespace Tic_Tac_Toe_Game_Simulator
         private System.Windows.Forms.Label lbl_countingTurns;
         private System.Windows.Forms.TextBox txtbx_Turn;
         private System.Windows.Forms.TextBox txtbx_Status;
+        private System.Windows.Forms.Label lbl_Score;
+        private System.Windows.Forms.Label lbl_X;
+        private System.Windows.Forms.Label lbl_O;
+        private System.Windows.Forms.Label lbl_Xscore;
+        private System.Windows.Forms.Label lbl_Oscore;
     }
 }
 
