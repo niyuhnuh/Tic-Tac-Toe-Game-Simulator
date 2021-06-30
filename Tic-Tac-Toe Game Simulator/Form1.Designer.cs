@@ -50,7 +50,7 @@ namespace Tic_Tac_Toe_Game_Simulator
             this.btn_Exit.BackColor = System.Drawing.Color.Black;
             this.btn_Exit.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btn_Exit.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btn_Exit.Location = new System.Drawing.Point(189, 363);
+            this.btn_Exit.Location = new System.Drawing.Point(189, 386);
             this.btn_Exit.Name = "btn_Exit";
             this.btn_Exit.Size = new System.Drawing.Size(154, 32);
             this.btn_Exit.TabIndex = 25;
@@ -63,7 +63,7 @@ namespace Tic_Tac_Toe_Game_Simulator
             this.btn_Reset.BackColor = System.Drawing.Color.Black;
             this.btn_Reset.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btn_Reset.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btn_Reset.Location = new System.Drawing.Point(12, 363);
+            this.btn_Reset.Location = new System.Drawing.Point(12, 386);
             this.btn_Reset.Name = "btn_Reset";
             this.btn_Reset.Size = new System.Drawing.Size(154, 32);
             this.btn_Reset.TabIndex = 24;
@@ -97,7 +97,7 @@ namespace Tic_Tac_Toe_Game_Simulator
             // btn9
             // 
             this.btn9.Font = new System.Drawing.Font("Courier New", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn9.Location = new System.Drawing.Point(223, 235);
+            this.btn9.Location = new System.Drawing.Point(227, 235);
             this.btn9.Name = "btn9";
             this.btn9.Size = new System.Drawing.Size(81, 69);
             this.btn9.TabIndex = 21;
@@ -107,7 +107,7 @@ namespace Tic_Tac_Toe_Game_Simulator
             // btn8
             // 
             this.btn8.Font = new System.Drawing.Font("Courier New", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn8.Location = new System.Drawing.Point(136, 235);
+            this.btn8.Location = new System.Drawing.Point(140, 235);
             this.btn8.Name = "btn8";
             this.btn8.Size = new System.Drawing.Size(81, 69);
             this.btn8.TabIndex = 20;
@@ -117,7 +117,7 @@ namespace Tic_Tac_Toe_Game_Simulator
             // btn7
             // 
             this.btn7.Font = new System.Drawing.Font("Courier New", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn7.Location = new System.Drawing.Point(49, 235);
+            this.btn7.Location = new System.Drawing.Point(53, 235);
             this.btn7.Name = "btn7";
             this.btn7.Size = new System.Drawing.Size(81, 69);
             this.btn7.TabIndex = 19;
@@ -127,7 +127,7 @@ namespace Tic_Tac_Toe_Game_Simulator
             // btn6
             // 
             this.btn6.Font = new System.Drawing.Font("Courier New", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn6.Location = new System.Drawing.Point(223, 151);
+            this.btn6.Location = new System.Drawing.Point(227, 151);
             this.btn6.Name = "btn6";
             this.btn6.Size = new System.Drawing.Size(81, 69);
             this.btn6.TabIndex = 18;
@@ -137,7 +137,7 @@ namespace Tic_Tac_Toe_Game_Simulator
             // btn5
             // 
             this.btn5.Font = new System.Drawing.Font("Courier New", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn5.Location = new System.Drawing.Point(136, 151);
+            this.btn5.Location = new System.Drawing.Point(140, 151);
             this.btn5.Name = "btn5";
             this.btn5.Size = new System.Drawing.Size(81, 69);
             this.btn5.TabIndex = 17;
@@ -147,7 +147,7 @@ namespace Tic_Tac_Toe_Game_Simulator
             // btn4
             // 
             this.btn4.Font = new System.Drawing.Font("Courier New", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn4.Location = new System.Drawing.Point(49, 151);
+            this.btn4.Location = new System.Drawing.Point(53, 151);
             this.btn4.Name = "btn4";
             this.btn4.Size = new System.Drawing.Size(81, 69);
             this.btn4.TabIndex = 16;
@@ -157,7 +157,7 @@ namespace Tic_Tac_Toe_Game_Simulator
             // btn3
             // 
             this.btn3.Font = new System.Drawing.Font("Courier New", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn3.Location = new System.Drawing.Point(223, 66);
+            this.btn3.Location = new System.Drawing.Point(227, 66);
             this.btn3.Name = "btn3";
             this.btn3.Size = new System.Drawing.Size(81, 69);
             this.btn3.TabIndex = 15;
@@ -167,7 +167,7 @@ namespace Tic_Tac_Toe_Game_Simulator
             // btn2
             // 
             this.btn2.Font = new System.Drawing.Font("Courier New", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn2.Location = new System.Drawing.Point(136, 66);
+            this.btn2.Location = new System.Drawing.Point(140, 66);
             this.btn2.Name = "btn2";
             this.btn2.Size = new System.Drawing.Size(81, 69);
             this.btn2.TabIndex = 14;
@@ -177,7 +177,7 @@ namespace Tic_Tac_Toe_Game_Simulator
             // btn1
             // 
             this.btn1.Font = new System.Drawing.Font("Courier New", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn1.Location = new System.Drawing.Point(49, 66);
+            this.btn1.Location = new System.Drawing.Point(53, 66);
             this.btn1.Name = "btn1";
             this.btn1.Size = new System.Drawing.Size(81, 69);
             this.btn1.TabIndex = 13;
@@ -187,7 +187,7 @@ namespace Tic_Tac_Toe_Game_Simulator
             // lbl_countingTurns
             // 
             this.lbl_countingTurns.AutoSize = true;
-            this.lbl_countingTurns.Location = new System.Drawing.Point(12, 345);
+            this.lbl_countingTurns.Location = new System.Drawing.Point(12, 368);
             this.lbl_countingTurns.Name = "lbl_countingTurns";
             this.lbl_countingTurns.Size = new System.Drawing.Size(38, 15);
             this.lbl_countingTurns.TabIndex = 26;
@@ -199,7 +199,7 @@ namespace Tic_Tac_Toe_Game_Simulator
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ClientSize = new System.Drawing.Size(355, 407);
+            this.ClientSize = new System.Drawing.Size(355, 430);
             this.Controls.Add(this.lbl_countingTurns);
             this.Controls.Add(this.btn_Exit);
             this.Controls.Add(this.btn_Reset);
