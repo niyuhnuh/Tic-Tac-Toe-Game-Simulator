@@ -16,13 +16,11 @@ namespace Tic_Tac_Toe_Game_Simulator
         {
             InitializeComponent();
         }
-
         
         bool turn = true; //Assigning boolean variable for turns
         byte countingTurns = 0; //The actual turn count value
         byte x_Score = 0;
         byte o_Score = 0;
-
        
         private void checkWinner()
         {

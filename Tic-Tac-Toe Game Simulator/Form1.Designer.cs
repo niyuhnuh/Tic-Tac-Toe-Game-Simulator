@@ -29,6 +29,7 @@ namespace Tic_Tac_Toe_Game_Simulator
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Tic_Tac_Toe));
             this.btn_Exit = new System.Windows.Forms.Button();
             this.btn_Reset = new System.Windows.Forms.Button();
             this.btn9 = new System.Windows.Forms.Button();
@@ -169,7 +170,7 @@ namespace Tic_Tac_Toe_Game_Simulator
             // lbl_countingTurns
             // 
             this.lbl_countingTurns.AutoSize = true;
-            this.lbl_countingTurns.Location = new System.Drawing.Point(12, 368);
+            this.lbl_countingTurns.Location = new System.Drawing.Point(2, 433);
             this.lbl_countingTurns.Name = "lbl_countingTurns";
             this.lbl_countingTurns.Size = new System.Drawing.Size(38, 15);
             this.lbl_countingTurns.TabIndex = 26;
@@ -280,6 +281,7 @@ namespace Tic_Tac_Toe_Game_Simulator
             this.Controls.Add(this.btn2);
             this.Controls.Add(this.btn1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Tic_Tac_Toe";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tic-Tac-Toe ";
