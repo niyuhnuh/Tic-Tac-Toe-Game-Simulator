@@ -49,10 +49,12 @@ namespace Tic_Tac_Toe_Game_Simulator
                     if (btn1.Text.Contains("X"))
                     {
                         x_Score++;
+                        lbl_Xscore.Text = x_Score.ToString();
                     }
                     else
                     {
                         o_Score++;
+                        lbl_Oscore.Text = o_Score.ToString();
                     }
                 }
            }
@@ -79,10 +81,12 @@ namespace Tic_Tac_Toe_Game_Simulator
                     if (btn1.Text.Contains("X"))
                     {
                         x_Score++;
+                        lbl_Xscore.Text = x_Score.ToString();
                     }
                     else
                     {
                         o_Score++;
+                        lbl_Oscore.Text = o_Score.ToString();
                     }
                 }
             }
@@ -109,10 +113,12 @@ namespace Tic_Tac_Toe_Game_Simulator
                     if (btn1.Text.Contains("X"))
                     {
                         x_Score++;
+                        lbl_Xscore.Text = x_Score.ToString();
                     }
                     else
                     {
                         o_Score++;
+                        lbl_Oscore.Text = o_Score.ToString();
                     }
                 }
            }
@@ -141,10 +147,12 @@ namespace Tic_Tac_Toe_Game_Simulator
                     if (btn1.Text.Contains("X"))
                     {
                         x_Score++;
+                        lbl_Xscore.Text = x_Score.ToString();
                     }
                     else
                     {
                         o_Score++;
+                        lbl_Oscore.Text = o_Score.ToString();
                     }
                 }
             }
@@ -171,10 +179,12 @@ namespace Tic_Tac_Toe_Game_Simulator
                     if (btn1.Text.Contains("X"))
                     {
                         x_Score++;
+                        lbl_Xscore.Text = x_Score.ToString();
                     }
                     else
                     {
                         o_Score++;
+                        lbl_Oscore.Text = o_Score.ToString();
                     }
                 }
             }
@@ -201,10 +211,12 @@ namespace Tic_Tac_Toe_Game_Simulator
                     if (btn1.Text.Contains("X"))
                     {
                         x_Score++;
+                        lbl_Xscore.Text = x_Score.ToString();
                     }
                     else
                     {
                         o_Score++;
+                        lbl_Oscore.Text = o_Score.ToString();
                     }
                 }
            }
@@ -233,10 +245,12 @@ namespace Tic_Tac_Toe_Game_Simulator
                     if (btn1.Text.Contains("X"))
                     {
                         x_Score++;
+                        lbl_Xscore.Text = x_Score.ToString();
                     }
                     else
                     {
                         o_Score++;
+                        lbl_Oscore.Text = o_Score.ToString();
                     }
                 }
             }
@@ -263,10 +277,12 @@ namespace Tic_Tac_Toe_Game_Simulator
                     if (btn1.Text.Contains("X"))
                     {
                         x_Score++;
+                        lbl_Xscore.Text = x_Score.ToString();
                     }
                     else
                     {
                         o_Score++;
+                        lbl_Oscore.Text = o_Score.ToString();
                     }
                 }
             }
