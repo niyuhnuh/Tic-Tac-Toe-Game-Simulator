@@ -49,8 +49,6 @@ namespace Tic_Tac_Toe_Game_Simulator
                 }
            }
 
-            
-
             else if ((btn4.Text == btn5.Text) && (btn5.Text == btn6.Text) && (btn6.Text == btn4.Text) && (countingTurns >= 5) && (!btn4.Enabled))
             {
 
@@ -77,7 +75,7 @@ namespace Tic_Tac_Toe_Game_Simulator
             }
 
            else if ((btn7.Text == btn8.Text) && (btn8.Text == btn9.Text) && (btn9.Text == btn7.Text) && (countingTurns >= 5) && (!btn7.Enabled))
-            {
+           {
                 lbl_Status.Visible = true;
                 lbl_Status.Text = "Game Over!";
                 lbl_Turn.Text = "Game Over!";
@@ -151,7 +149,7 @@ namespace Tic_Tac_Toe_Game_Simulator
             }
 
            else if ((btn3.Text == btn6.Text) && (btn6.Text == btn9.Text) && (btn9.Text == btn3.Text) && (countingTurns >= 5) && (!btn3.Enabled))
-            {
+           {
                 lbl_Status.Visible = true;
                 lbl_Status.Text = "Game Over!";
                 lbl_Turn.Text = "Game Over!";
@@ -222,8 +220,6 @@ namespace Tic_Tac_Toe_Game_Simulator
                     btn9.Enabled = false;
                     btn8.Enabled = false;
                 }
-
-               
             }
 
             else if (!btn1.Enabled && !btn2.Enabled && !btn3.Enabled && !btn4.Enabled && !btn5.Enabled && !btn6.Enabled && !btn7.Enabled && !btn8.Enabled && !btn9.Enabled)
@@ -233,7 +229,6 @@ namespace Tic_Tac_Toe_Game_Simulator
                 lbl_Turn.Text = "Its a Tie!";
 
             }
-
         }
 
         private void btn1_Click(object sender, EventArgs e)
@@ -275,7 +270,6 @@ namespace Tic_Tac_Toe_Game_Simulator
                 
                 checkWinner();
             }
-
             else
             {
                 btn2.Text = "O";
@@ -302,7 +296,6 @@ namespace Tic_Tac_Toe_Game_Simulator
              
                 checkWinner();
             }
-
             else
             {
                 btn3.Text = "O";
@@ -329,7 +322,6 @@ namespace Tic_Tac_Toe_Game_Simulator
             
                 checkWinner();
             }
-
             else
             {
                 btn4.Text = "O";
@@ -356,7 +348,6 @@ namespace Tic_Tac_Toe_Game_Simulator
         
                 checkWinner();
             }
-
             else
             {
                 btn5.Text = "O";
@@ -383,7 +374,6 @@ namespace Tic_Tac_Toe_Game_Simulator
      
                 checkWinner();
             }
-
             else
             {
                 btn6.Text = "O";
@@ -410,7 +400,6 @@ namespace Tic_Tac_Toe_Game_Simulator
 
                 checkWinner();
             }
-
             else
             {
                 btn7.Text = "O";
@@ -437,7 +426,6 @@ namespace Tic_Tac_Toe_Game_Simulator
                 
                 checkWinner();
             }
-
             else
             {
                 btn8.Text = "O";
@@ -465,7 +453,6 @@ namespace Tic_Tac_Toe_Game_Simulator
       
                 checkWinner();
             }
-
             else
             {
                 btn9.Text = "O";
@@ -520,6 +507,6 @@ namespace Tic_Tac_Toe_Game_Simulator
         private void btn_Exit_Click(object sender, EventArgs e)
         {
             Application.Exit();
-        }
+        }    
     }
 }
