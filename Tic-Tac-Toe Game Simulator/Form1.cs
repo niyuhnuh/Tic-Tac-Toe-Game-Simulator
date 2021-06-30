@@ -497,6 +497,16 @@ namespace Tic_Tac_Toe_Game_Simulator
             btn8.BackColor = SystemColors.Control;
             btn9.BackColor = SystemColors.Control;
 
+            btn1.ForeColor = System.Drawing.Color.Black;
+            btn2.ForeColor = System.Drawing.Color.Black;
+            btn3.ForeColor = System.Drawing.Color.Black;
+            btn4.ForeColor = System.Drawing.Color.Black;
+            btn5.ForeColor = System.Drawing.Color.Black;
+            btn6.ForeColor = System.Drawing.Color.Black;
+            btn7.ForeColor = System.Drawing.Color.Black;
+            btn8.ForeColor = System.Drawing.Color.Black;
+            btn9.ForeColor = System.Drawing.Color.Black;
+
             turn = true;
             countingTurns = 0;
             txtbx_Status.Visible = false;
