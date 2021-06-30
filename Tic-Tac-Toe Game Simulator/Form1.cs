@@ -288,7 +288,7 @@ namespace Tic_Tac_Toe_Game_Simulator
             {
                 btn3.Text = "X";
                 turn = false;
-                lbl_Turn.Text = "O's Turn";
+                txtbx_Turn.Text = "O's Turn";
                 btn3.Enabled = false;
                 countingTurns++;
                 lbl_countingTurns.Text = Convert.ToString(countingTurns);
@@ -299,7 +299,7 @@ namespace Tic_Tac_Toe_Game_Simulator
             {
                 btn3.Text = "O";
                 turn = true;
-                lbl_Turn.Text = "X's Turn";
+                txtbx_Turn.Text = "X's Turn";
                 btn3.Enabled = false;
                 countingTurns++;
                 lbl_countingTurns.Text = Convert.ToString(countingTurns);
