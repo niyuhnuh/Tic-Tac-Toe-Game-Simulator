@@ -78,7 +78,7 @@ namespace Tic_Tac_Toe_Game_Simulator
                     btn8.Enabled = false;
                     btn9.Enabled = false;
 
-                    if (btn1.Text.Contains("X"))
+                    if (btn4.Text.Contains("X"))
                     {
                         x_Score++;
                         lbl_Xscore.Text = x_Score.ToString();
@@ -110,7 +110,7 @@ namespace Tic_Tac_Toe_Game_Simulator
                     btn5.Enabled = false;
                     btn6.Enabled = false;
 
-                    if (btn1.Text.Contains("X"))
+                    if (btn7.Text.Contains("X"))
                     {
                         x_Score++;
                         lbl_Xscore.Text = x_Score.ToString();
@@ -176,7 +176,7 @@ namespace Tic_Tac_Toe_Game_Simulator
                     btn7.Enabled = false;
                     btn9.Enabled = false;
 
-                    if (btn1.Text.Contains("X"))
+                    if (btn2.Text.Contains("X"))
                     {
                         x_Score++;
                         lbl_Xscore.Text = x_Score.ToString();
@@ -208,7 +208,7 @@ namespace Tic_Tac_Toe_Game_Simulator
                     btn7.Enabled = false;
                     btn8.Enabled = false;
 
-                    if (btn1.Text.Contains("X"))
+                    if (btn3.Text.Contains("X"))
                     {
                         x_Score++;
                         lbl_Xscore.Text = x_Score.ToString();
@@ -274,7 +274,7 @@ namespace Tic_Tac_Toe_Game_Simulator
                     btn9.Enabled = false;
                     btn8.Enabled = false;
 
-                    if (btn1.Text.Contains("X"))
+                    if (btn3.Text.Contains("X"))
                     {
                         x_Score++;
                         lbl_Xscore.Text = x_Score.ToString();
