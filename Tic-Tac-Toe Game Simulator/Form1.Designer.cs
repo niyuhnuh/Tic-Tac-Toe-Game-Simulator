@@ -43,6 +43,8 @@ namespace Tic_Tac_Toe_Game_Simulator
             this.btn2 = new System.Windows.Forms.Button();
             this.btn1 = new System.Windows.Forms.Button();
             this.lbl_countingTurns = new System.Windows.Forms.Label();
+            this.txtbx_Turn = new System.Windows.Forms.TextBox();
+            this.txtbx_Status = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btn_Exit
@@ -194,12 +196,35 @@ namespace Tic_Tac_Toe_Game_Simulator
             this.lbl_countingTurns.Text = "label1";
             this.lbl_countingTurns.Visible = false;
             // 
+            // txtbx_Turn
+            // 
+            this.txtbx_Turn.Location = new System.Drawing.Point(121, 2);
+            this.txtbx_Turn.Name = "txtbx_Turn";
+            this.txtbx_Turn.ReadOnly = true;
+            this.txtbx_Turn.Size = new System.Drawing.Size(100, 23);
+            this.txtbx_Turn.TabIndex = 27;
+            this.txtbx_Turn.Text = "X\'s Turn";
+            this.txtbx_Turn.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtbx_Status
+            // 
+            this.txtbx_Status.Location = new System.Drawing.Point(121, 310);
+            this.txtbx_Status.Name = "txtbx_Status";
+            this.txtbx_Status.ReadOnly = true;
+            this.txtbx_Status.Size = new System.Drawing.Size(100, 23);
+            this.txtbx_Status.TabIndex = 28;
+            this.txtbx_Status.Text = "X\'s Turn";
+            this.txtbx_Status.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtbx_Status.Visible = false;
+            // 
             // Tic_Tac_Toe
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(355, 430);
+            this.Controls.Add(this.txtbx_Status);
+            this.Controls.Add(this.txtbx_Turn);
             this.Controls.Add(this.lbl_countingTurns);
             this.Controls.Add(this.btn_Exit);
             this.Controls.Add(this.btn_Reset);
@@ -238,6 +263,8 @@ namespace Tic_Tac_Toe_Game_Simulator
         private System.Windows.Forms.Button btn2;
         private System.Windows.Forms.Button btn1;
         private System.Windows.Forms.Label lbl_countingTurns;
+        private System.Windows.Forms.TextBox txtbx_Turn;
+        private System.Windows.Forms.TextBox txtbx_Status;
     }
 }
 
