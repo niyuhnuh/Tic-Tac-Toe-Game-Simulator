@@ -31,11 +31,11 @@ namespace Tic_Tac_Toe_Game_Simulator
                 txtbx_Status.Text = "Game Over!";
                 txtbx_Turn.Text = "Game Over!";
 
-                btn1.Enabled = true;
+                
                 btn1.BackColor = Color.PaleGreen;
-                btn2.Enabled = true;
+           
                 btn2.BackColor = Color.PaleGreen;
-                btn3.Enabled = true;
+            
                 btn3.BackColor = Color.PaleGreen;
                 
                 if (btn4.Enabled != false || btn5.Enabled != false || btn6.Enabled != false || btn7.Enabled != false || btn8.Enabled != false || btn9.Enabled != false)
@@ -56,11 +56,11 @@ namespace Tic_Tac_Toe_Game_Simulator
                 txtbx_Status.Text = "Game Over!";
                 txtbx_Turn.Text = "Game Over!";
 
-                btn4.Enabled = true;
+                
                 btn4.BackColor = Color.PaleGreen;
-                btn5.Enabled = true;
+             
                 btn5.BackColor = Color.PaleGreen;
-                btn6.Enabled = true;
+             
                 btn6.BackColor = Color.PaleGreen;
 
                 if (btn1.Enabled != false || btn2.Enabled != false || btn3.Enabled != false || btn7.Enabled != false || btn8.Enabled != false || btn9.Enabled != false)
@@ -80,11 +80,11 @@ namespace Tic_Tac_Toe_Game_Simulator
                 txtbx_Status.Text = "Game Over!";
                 txtbx_Turn.Text = "Game Over!";
 
-                btn7.Enabled = true;
+            
                 btn7.BackColor = Color.PaleGreen;
-                btn8.Enabled = true;
+                
                 btn8.BackColor = Color.PaleGreen;
-                btn9.Enabled = true;
+               
                 btn9.BackColor = Color.PaleGreen;
 
                 if (btn1.Enabled != false || btn2.Enabled != false || btn3.Enabled != false || btn4.Enabled != false || btn5.Enabled != false || btn6.Enabled != false)
@@ -106,11 +106,11 @@ namespace Tic_Tac_Toe_Game_Simulator
                 txtbx_Status.Text = "Game Over!";
                 txtbx_Turn.Text = "Game Over!";
 
-                btn1.Enabled = true;
+             
                 btn1.BackColor = Color.PaleGreen;
-                btn4.Enabled = true;
+           
                 btn4.BackColor = Color.PaleGreen;
-                btn7.Enabled = true;
+         
                 btn7.BackColor = Color.PaleGreen;
 
                 if (btn2.Enabled != false || btn3.Enabled != false || btn6.Enabled != false || btn5.Enabled != false || btn8.Enabled != false || btn9.Enabled != false)
@@ -130,11 +130,11 @@ namespace Tic_Tac_Toe_Game_Simulator
                 txtbx_Status.Text = "Game Over!";
                 txtbx_Turn.Text = "Game Over!";
 
-                btn2.Enabled = true;
+               
                 btn2.BackColor = Color.PaleGreen;
-                btn5.Enabled = true;
+              
                 btn5.BackColor = Color.PaleGreen;
-                btn8.Enabled = true;
+             
                 btn8.BackColor = Color.PaleGreen;
 
                 if (btn1.Enabled != false || btn3.Enabled != false || btn6.Enabled != false || btn4.Enabled != false || btn7.Enabled != false || btn9.Enabled != false)
@@ -154,11 +154,11 @@ namespace Tic_Tac_Toe_Game_Simulator
                 txtbx_Status.Text = "Game Over!";
                 txtbx_Turn.Text = "Game Over!";
 
-                btn3.Enabled = true;
+             
                 btn3.BackColor = Color.PaleGreen;
-                btn6.Enabled = true;
+           
                 btn6.BackColor = Color.PaleGreen;
-                btn9.Enabled = true;
+
                 btn9.BackColor = Color.PaleGreen;
 
                 if (btn1.Enabled != false || btn2.Enabled != false || btn5.Enabled != false || btn4.Enabled != false || btn7.Enabled != false || btn8.Enabled != false)
@@ -180,11 +180,11 @@ namespace Tic_Tac_Toe_Game_Simulator
                 txtbx_Status.Text = "Game Over!";
                 txtbx_Turn.Text = "Game Over!";
 
-                btn1.Enabled = true;
+               
                 btn1.BackColor = Color.PaleGreen;
-                btn5.Enabled = true;
+         
                 btn5.BackColor = Color.PaleGreen;
-                btn9.Enabled = true;
+
                 btn9.BackColor = Color.PaleGreen;
 
                 if (btn2.Enabled != false || btn3.Enabled != false || btn6.Enabled != false || btn4.Enabled != false || btn7.Enabled != false || btn8.Enabled != false)
@@ -204,11 +204,11 @@ namespace Tic_Tac_Toe_Game_Simulator
                 txtbx_Status.Text = "Game Over!";
                 txtbx_Turn.Text = "Game Over!";
 
-                btn3.Enabled = true;
+         
                 btn3.BackColor = Color.PaleGreen;
-                btn5.Enabled = true;
+            
                 btn5.BackColor = Color.PaleGreen;
-                btn7.Enabled = true;
+         
                 btn7.BackColor = Color.PaleGreen;
 
                 if (btn2.Enabled != false || btn1.Enabled != false || btn6.Enabled != false || btn4.Enabled != false || btn9.Enabled != false || btn8.Enabled != false)
