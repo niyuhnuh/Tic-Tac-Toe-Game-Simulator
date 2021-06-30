@@ -53,9 +53,9 @@ namespace Tic_Tac_Toe_Game_Simulator
             // 
             // btn_Exit
             // 
-            this.btn_Exit.BackColor = System.Drawing.Color.Black;
+            this.btn_Exit.BackColor = System.Drawing.SystemColors.Control;
             this.btn_Exit.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btn_Exit.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btn_Exit.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btn_Exit.Location = new System.Drawing.Point(12, 398);
             this.btn_Exit.Name = "btn_Exit";
             this.btn_Exit.Size = new System.Drawing.Size(154, 32);
@@ -66,9 +66,9 @@ namespace Tic_Tac_Toe_Game_Simulator
             // 
             // btn_Reset
             // 
-            this.btn_Reset.BackColor = System.Drawing.Color.Black;
+            this.btn_Reset.BackColor = System.Drawing.SystemColors.Control;
             this.btn_Reset.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btn_Reset.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btn_Reset.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btn_Reset.Location = new System.Drawing.Point(12, 360);
             this.btn_Reset.Name = "btn_Reset";
             this.btn_Reset.Size = new System.Drawing.Size(154, 32);
